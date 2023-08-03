@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<section>
+    <header>Paolo Brasolin</header>
+
+    <ul id="contacts">
+        {% for item in site.data.contacts %}
+        <li>
+            <i aria-hidden="true" class="{{ item.icon }}" title="{{ item.label }}"></i>
+            <span class="sr-only">{{ item.label }}:</span>
+            <a target="_blank" href="{{ item.link }}">{{ item.value }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+
+</section>
+
+{% include section.html content=site.data.experience %}
+{% include section.html content=site.data.education %}

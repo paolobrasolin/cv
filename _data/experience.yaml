@@ -1,0 +1,102 @@
+title: Experience
+items:
+  - title: Co-founder, CTO
+    place: AudioGiro S.r.l., Padua (IT)
+    dates:
+      range: 2022-03
+      label: Mar 2022 -- **now**
+    extra: |
+      I hold the technical leadership of the company.
+      Our goal is turning tourists into explorers.
+
+  - title: Researcher
+    place: Eurac Research,Bolzano (IT)
+    dates:
+      range: 2022-02
+      label: Feb 2022 -- **now**
+    extra: |
+      I work in the Language Technologies group at the Institute for Applied Linguistics.
+      I'm appointed to the Zeit.Shift project, co-funded by EU through Interreg, for designing and developing a ludic citizen science project.
+      I'm also overseeing the modernization of the institute's Kubernetes cluster.
+
+  - title: Lead Developer
+    place: Leanbit S.r.l., Padua (IT), remote
+    dates:
+      range: 2019-01/2022-10
+      label: Jan 2019 -- Oct 2022
+    extra: |
+      I honed my **management** skills through both experience and coaching. In
+      turn, I mentored and paired with new talents as our **Agile** principled company
+      grew to double the workforce it had when I joined.
+      Now we are transitioning from consulting to SaaS, and I focus my interest on
+      **reducing friction**;\linebreak I firmly believe that ingraining attention to tools
+      and processes will bear great benefits, especially to **QOL for developers**.
+      While I assisted customers of very disparate sizes, my proudest achievement is
+      leading a GUI framework project for a multinational which deploys to the field
+      across the globe.
+
+  - title: Consultant, Typesetter
+    place: Manning Publications Co., New York (US), remote
+    dates:
+      range: 2019-01/2020-04
+      label: Jan 2019 -- Apr 2020
+    extra: |
+      A global publishing company has a complex pipeline involving many stakeholders.
+      Some were bound to be at odds, and I alleviated this by pushing small but
+      crucial technical choices.
+      I **strategically** accrued them across a few iterations
+      to acquire momentum and propose a complete rewrite of the TEX pipeline template.
+      Thus, I was successful in eradicating many difficulties for future authors.
+
+  - title: Consultant, OSS Maintainer
+    place: Ribose Group Inc., Hong Kong (CN), remote
+    dates:
+      range: 2017-07
+      label: Jul 2017 -- **now**
+    extra: |
+      The company is cooperating with ISO to establish global meta-standards and build
+      instruments to empower editors. I architected and implemented two staple
+      \hologo{TeX} tools of their ecosystem.
+      I am now taking care of them, and **OSS maintenance** is a precious lesson in
+      the equilibrium between fostering the community and its feedback while ensuring
+      technical excellence in the long term.
+
+  - title: Developer
+    place: Leanbit S.r.l., Padua (IT)
+    dates:
+      range: 2017-03/2018-12
+      label: Mar 2017 -- Dec 2018
+    extra: |
+      I integrated myself into a lean and mean team of consultants, contributing to
+      broadening their horizons. I exercised my **pragmatism** to undertake and
+      cut to the chase on the most exploratory projects.
+
+  - title: Lead Developer
+    place: Ideasmart, Padua (IT)
+    dates:
+      range: 2016-06/2017-01
+      label: Jun 2016 -- Jan 2017
+    extra: |
+      A tiny startup pitched an idea reliant upon rapidly changing laws.
+      I contributed to its kickoff by applying my inclination for technical **reconnaissance**
+      to quickly iterate towards a POC.
+
+  - title: Programmer, Document Designer
+    place: freelance
+    dates:
+      range: 2015
+      label: 2015 -- **now**
+    extra: |
+      I negotiate and analyze specifications from customers with very diverse
+      expertise. This allows me to cultivate the **tact and foresight** required
+      to pave efficient roads leading them to satisfaction.
+
+  - title: Private STEM tutor
+    place: freelance
+    dates:
+      range: 2010/2020
+      label: 2010 -- 2020
+    extra: |
+      I tapped into my love for sciences and enabled undergraduate students to grasp
+      the subjects and overcome their hurdles. I learned the importance of carefully
+      **tailoring communication**.

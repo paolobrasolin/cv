@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  @apply bg-gray-100;
+  @apply md:p-8;
+}
+
+main {
+  @apply shadow-lg;
+  @apply bg-white;
+  @apply max-w-4xl m-auto;
+
+  section:first-child {
+    @apply p-8;
+    @apply bg-black text-white;
+    @apply flex gap-4;
+    header {
+      @apply font-extrabold text-5xl;
+    }
+  }
+
+  section {
+    @apply p-8 sm:p-16;
+    @apply flex-col;
+
+    h2 {
+      @apply text-3xl;
+    }
+
+    article {
+      @apply my-4;
+
+      header {
+        @apply my-2;
+        h3 {
+          @apply text-lg;
+        }
+        div {
+          @apply italic text-gray-500;
+          @apply flex justify-between;
+        }
+      }
+    }
+  }
+
+  ul#contacts {
+    li {
+      @apply whitespace-nowrap;
+      i {
+        @apply w-4 mr-1;
+      }
+    }
+  }
+
+  @media screen(md) {
+    @apply grid grid-rows-1 grid-cols-[1fr_2fr];
+    section:first-child {
+      @apply col-start-1 col-end-2 row-start-1 row-start-1 row-end-[100];
+    }
+    section:not(:first-child) {
+      @apply col-start-2 col-end-3;
+    }
+  }
+}
