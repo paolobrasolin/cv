@@ -7,13 +7,97 @@ html {
 }
 
 body {
-  @apply bg-gray-100;
   @apply md:p-8;
+
+  /* https://projects.verou.me/css3patterns/#seigaiha */
+  --seigaiha-bg: whitesmoke;
+  --seigaiha-fg: white;
+  background-size: 6rem 3rem;
+  background-attachment: fixed;
+  background-color: var(--seigaiha-bg);
+  background-image: radial-gradient(
+      circle at 100% 150%,
+      var(--seigaiha-bg) 24%,
+      var(--seigaiha-fg) 24%,
+      var(--seigaiha-fg) 28%,
+      var(--seigaiha-bg) 28%,
+      var(--seigaiha-bg) 36%,
+      var(--seigaiha-fg) 36%,
+      var(--seigaiha-fg) 40%,
+      transparent 40%,
+      transparent
+    ),
+    radial-gradient(
+      circle at 0 150%,
+      var(--seigaiha-bg) 24%,
+      var(--seigaiha-fg) 24%,
+      var(--seigaiha-fg) 28%,
+      var(--seigaiha-bg) 28%,
+      var(--seigaiha-bg) 36%,
+      var(--seigaiha-fg) 36%,
+      var(--seigaiha-fg) 40%,
+      transparent 40%,
+      transparent
+    ),
+    radial-gradient(
+      circle at 50% 100%,
+      var(--seigaiha-fg) 10%,
+      var(--seigaiha-bg) 10%,
+      var(--seigaiha-bg) 23%,
+      var(--seigaiha-fg) 23%,
+      var(--seigaiha-fg) 30%,
+      var(--seigaiha-bg) 30%,
+      var(--seigaiha-bg) 43%,
+      var(--seigaiha-fg) 43%,
+      var(--seigaiha-fg) 50%,
+      var(--seigaiha-bg) 50%,
+      var(--seigaiha-bg) 63%,
+      var(--seigaiha-fg) 63%,
+      var(--seigaiha-fg) 71%,
+      transparent 71%,
+      transparent
+    ),
+    radial-gradient(
+      circle at 100% 50%,
+      var(--seigaiha-fg) 5%,
+      var(--seigaiha-bg) 5%,
+      var(--seigaiha-bg) 15%,
+      var(--seigaiha-fg) 15%,
+      var(--seigaiha-fg) 20%,
+      var(--seigaiha-bg) 20%,
+      var(--seigaiha-bg) 29%,
+      var(--seigaiha-fg) 29%,
+      var(--seigaiha-fg) 34%,
+      var(--seigaiha-bg) 34%,
+      var(--seigaiha-bg) 44%,
+      var(--seigaiha-fg) 44%,
+      var(--seigaiha-fg) 49%,
+      transparent 49%,
+      transparent
+    ),
+    radial-gradient(
+      circle at 0 50%,
+      var(--seigaiha-fg) 5%,
+      var(--seigaiha-bg) 5%,
+      var(--seigaiha-bg) 15%,
+      var(--seigaiha-fg) 15%,
+      var(--seigaiha-fg) 20%,
+      var(--seigaiha-bg) 20%,
+      var(--seigaiha-bg) 29%,
+      var(--seigaiha-fg) 29%,
+      var(--seigaiha-fg) 34%,
+      var(--seigaiha-bg) 34%,
+      var(--seigaiha-bg) 44%,
+      var(--seigaiha-fg) 44%,
+      var(--seigaiha-fg) 49%,
+      transparent 49%,
+      transparent
+    );
 }
 
 main {
   @apply shadow-lg;
-  @apply bg-white;
+  @apply bg-white text-black;
   @apply max-w-4xl m-auto;
 
   section:first-child {
