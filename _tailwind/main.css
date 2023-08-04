@@ -69,6 +69,12 @@ main {
     section:not(:first-child) {
       @apply col-start-2 col-end-3;
     }
+    section:first-child {
+      @apply relative;
+      nav {
+        @apply sticky top-4;
+      }
+    }
   }
 }
 
