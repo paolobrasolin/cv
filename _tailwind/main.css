@@ -19,8 +19,9 @@ main {
   section:first-child {
     @apply p-8;
     @apply bg-black text-white;
-    @apply flex gap-4;
-    header {
+    @apply flex gap-8 flex-row flex-wrap justify-start md:flex-col;
+    h1 {
+      @apply w-full;
       @apply font-extrabold text-5xl;
     }
   }
@@ -38,12 +39,14 @@ main {
 
       header {
         @apply my-2;
+        @apply flex flex-wrap justify-between;
         h3 {
-          @apply text-lg;
+          @apply w-full;
+          @apply font-bold text-lg;
         }
-        div {
+        div,
+        time {
           @apply italic text-gray-500;
-          @apply flex justify-between;
         }
       }
     }
@@ -53,7 +56,7 @@ main {
     li {
       @apply whitespace-nowrap;
       i {
-        @apply w-4 mr-1;
+        @apply w-4 inline-flex justify-center mr-1;
       }
     }
   }
@@ -61,10 +64,37 @@ main {
   @media screen(md) {
     @apply grid grid-rows-1 grid-cols-[1fr_2fr];
     section:first-child {
-      @apply col-start-1 col-end-2 row-start-1 row-start-1 row-end-[100];
+      @apply col-start-1 col-end-2 row-start-1 row-end-[100];
     }
     section:not(:first-child) {
       @apply col-start-2 col-end-3;
+    }
+  }
+}
+
+a[href] {
+  @apply underline;
+}
+
+nav {
+  ul {
+    li:before {
+      /* .fa */
+      font-family: var(--fa-style-family, "Font Awesome 6 Free");
+      font-weight: var(--fa-style, 900);
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+      display: var(--fa-display, inline-block);
+      font-style: normal;
+      font-variant: normal;
+      line-height: 1;
+      text-rendering: auto;
+      /* .fa-circle:before */
+      content: "\f111";
+      /* custom */
+      @apply w-4 inline-flex justify-center mr-1;
+      font-size: 0.5em;
+      vertical-align: 0.25em;
     }
   }
 }

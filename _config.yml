@@ -3,3 +3,6 @@
 #baseurl: "/cv"
 #description: My resume
 #encoding: "utf-8"
+
+exclude:
+  - _tailwind
