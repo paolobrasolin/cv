@@ -7,10 +7,10 @@ html {
 }
 
 body {
-  @apply md:p-8;
+  @apply md:p-8 bg-gray-100;
 
   /* https://projects.verou.me/css3patterns/#seigaiha */
-  --seigaiha-bg: whitesmoke;
+  /* --seigaiha-bg: whitesmoke;
   --seigaiha-fg: white;
   background-size: 6rem 3rem;
   background-attachment: fixed;
@@ -92,7 +92,7 @@ body {
       var(--seigaiha-fg) 49%,
       transparent 49%,
       transparent
-    );
+    ); */
 }
 
 main {
