@@ -17,7 +17,7 @@ main {
   @apply bg-white text-black;
   @apply max-w-4xl m-auto;
 
-  section:first-child {
+  & > header {
     @apply p-8;
     @apply bg-black text-white;
     @apply flex gap-8 flex-row flex-wrap justify-start md:flex-col;
@@ -64,13 +64,13 @@ main {
 
   @media screen(md) {
     @apply grid grid-rows-1 grid-cols-[1fr_2fr];
-    section:first-child {
+    & > header {
       @apply col-start-1 col-end-2 row-start-1 row-end-[100];
     }
-    section:not(:first-child) {
+    section {
       @apply col-start-2 col-end-3;
     }
-    section:first-child {
+    & > header {
       @apply relative;
       nav {
         @apply sticky top-4;
