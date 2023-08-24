@@ -7,7 +7,7 @@
 
         <header>
             <h3>{{ item.title | markdownify | remove: "<p>" | remove: "</p>" }}</h3>
-            <div>{{ item.place }}</div>
+            <div>{{ item.employer }}, {{ item.location }}</div>
             <time datetime="{{ items.dates.range }}">{{ item.dates.label | markdownify | remove: "<p>" | remove: "
                 </p>" }}</time>
         </header>

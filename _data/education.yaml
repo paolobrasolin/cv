@@ -1,39 +1,39 @@
 title: Education
 items:
   - title: Midlands Graduate School 2023
-    place: University of Birmingham
+    employer: University of Birmingham
     dates:
       label: Apr 2023
   - title: HoTTEST Summer School 2022
-    place: Western University, online
+    employer: Western University
     dates:
       label: Jul 2022 -- Aug 2022
   - title: Corso di Teoria delle Categorie
-    place: Progetto ItaCa
+    employer: Progetto ItaCa
     dates:
       label: Oct 2021 -- Jun 2022
   - title: _Resonance Leader_ coaching path
-    place: euXilia s.r.l, Padua (IT)
+    employer: euXilia s.r.l, Padua (IT)
     dates:
       range: 2020-01/2021-06
       label: Jan 2020 -- Jun 2021
   - title: "[AWS Certified Solutions Architect -- Professional](https://www.credly.com/badges/37aaaf27-3a2e-436d-9195-db4f46eb222e/public_url)"
-    place: AWS Training and Certification
+    employer: AWS Training and Certification
     dates:
       label: May 2021
   - title: "[AWS Certified Solutions Architect -- Associate](https://www.credly.com/badges/d092afab-f194-4074-ade6-78728c854faa/public_url)"
-    place: AWS Training and Certification
+    employer: AWS Training and Certification
     dates:
       label: Jan 2020
   - title: "[AWS Certified Cloud Practitioner](https://www.credly.com/badges/d268e963-65ba-462b-a835-f65a7baccccd/public_url)"
-    place: AWS Training and Certification
+    employer: AWS Training and Certification
     dates:
       label: Nov 2019
   - title: Master's Degree in Theoretical Physics
-    place: University of Padua
+    employer: University of Padua
     dates:
       label: 2010 -- ~~2013~~
   - title: Bachelor's Degree in Physics
-    place: University of Padua
+    employer: University of Padua
     dates:
       label: 2007 -- 2010

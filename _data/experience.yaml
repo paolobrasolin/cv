@@ -1,7 +1,8 @@
 title: Experience
 items:
   - title: Co-founder, CTO
-    place: AudioGiro S.r.l., Padua (IT)
+    employer: AudioGiro S.r.l. (Padua, IT)
+    location: fully remote
     dates:
       range: 2022-03
       label: Mar 2022 -- **now**
@@ -10,7 +11,8 @@ items:
       Our goal is turning tourists into explorers.
 
   - title: Researcher
-    place: Eurac Research,Bolzano (IT)
+    employer: Eurac Research (Bolzano, IT)
+    location: hybrid remote
     dates:
       range: 2022-02
       label: Feb 2022 -- **now**
@@ -20,7 +22,8 @@ items:
       I'm also overseeing the modernization of the institute's Kubernetes cluster.
 
   - title: Lead Developer
-    place: Leanbit S.r.l., Padua (IT), remote
+    employer: Leanbit S.r.l. (Padua, IT)
+    location: hybrid remote
     dates:
       range: 2019-01/2022-10
       label: Jan 2019 -- Oct 2022
@@ -36,7 +39,8 @@ items:
       across the globe.
 
   - title: Consultant, Typesetter
-    place: Manning Publications Co., New York (US), remote
+    employer: Manning Publications Co. (New York, US)
+    location: full remote
     dates:
       range: 2019-01/2020-04
       label: Jan 2019 -- Apr 2020
@@ -49,7 +53,8 @@ items:
       Thus, I was successful in eradicating many difficulties for future authors.
 
   - title: Consultant, OSS Maintainer
-    place: Ribose Group Inc., Hong Kong (CN), remote
+    employer: Ribose Group Inc. (Hong Kong, CN)
+    location: full remote
     dates:
       range: 2017-07
       label: Jul 2017 -- **now**
@@ -62,7 +67,8 @@ items:
       technical excellence in the long term.
 
   - title: Developer
-    place: Leanbit S.r.l., Padua (IT)
+    employer: Leanbit S.r.l. (Padua, IT)
+    location: on-site
     dates:
       range: 2017-03/2018-12
       label: Mar 2017 -- Dec 2018
@@ -72,7 +78,8 @@ items:
       cut to the chase on the most exploratory projects.
 
   - title: Lead Developer
-    place: Ideasmart, Padua (IT)
+    employer: Ideasmart (Padua, IT)
+    location: hybrid remote
     dates:
       range: 2016-06/2017-01
       label: Jun 2016 -- Jan 2017
@@ -82,7 +89,8 @@ items:
       to quickly iterate towards a POC.
 
   - title: Programmer, Document Designer
-    place: freelance
+    employer: freelance
+    location: full remote
     dates:
       range: 2015
       label: 2015 -- **now**
@@ -92,7 +100,8 @@ items:
       to pave efficient roads leading them to satisfaction.
 
   - title: Private STEM tutor
-    place: freelance
+    employer: freelance
+    location: on-site
     dates:
       range: 2010/2020
       label: 2010 -- 2020
