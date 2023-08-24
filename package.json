@@ -2,8 +2,8 @@
   "name": "cv",
   "private": "true",
   "scripts": {
-    "build": "postcss _tailwind/main.css --dir assets/css/",
-    "dev": "yarn run build --watch --verbose"
+    "build:css": "postcss _tailwind/index.css --dir assets/",
+    "watch:css": "yarn run build:css --watch --verbose"
   },
   "dependencies": {},
   "devDependencies": {
