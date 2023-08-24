@@ -8,6 +8,14 @@ html {
   font-family: "Lato", sans-serif;
 }
 
+/* Page setup for print media */
+@media print {
+  @page {
+    size: a4 portrait;
+    margin: 2rem;
+  }
+}
+
 /* Base style */
 main {
   @apply bg-white text-black;
@@ -43,34 +51,66 @@ main {
 }
 
 /* Fluid main header layout */
-main > header {
-  @apply p-8 sm:px-16 md:p-8;
-  @apply flex gap-8 flex-row flex-wrap justify-start md:flex-col;
-  h1 {
-    @apply w-full;
+@media screen {
+  main > header {
+    @apply p-8 sm:px-16 md:p-8;
+    @apply flex gap-8 flex-row flex-wrap justify-start;
+    @apply md:flex-col;
+    h1 {
+      @apply w-full;
+    }
+  }
+}
+@media print {
+  main > header {
+    @apply flex flex-row;
+    @apply text-black bg-white;
+    h1 {
+      word-spacing: 100vw;
+    }
   }
 }
 
 /* Main sections layout  */
-main > section {
-  @apply p-8 sm:p-16;
-  @apply flex-col;
+@media screen {
+  main > section {
+    @apply p-8 sm:p-16;
+    @apply flex-col;
 
-  article {
-    @apply my-4;
+    article {
+      @apply my-4;
 
-    header {
+      header {
+        @apply my-2;
+        @apply flex flex-wrap justify-between;
+        h3 {
+          @apply w-full;
+        }
+      }
+    }
+  }
+}
+@media print {
+  main > section {
+    @apply my-8;
+    article {
       @apply my-2;
-      @apply flex flex-wrap justify-between;
-      h3 {
-        @apply w-full;
+      header {
+        @apply flex break-after-avoid-page;
+        h3 {
+          @apply my-1;
+          @apply grow;
+        }
+        time::before {
+          content: ", ";
+        }
       }
     }
   }
 }
 
 /* Floating sheet effect */
-@media screen(md) {
+@media screen and screen(md) {
   body {
     @apply p-8 bg-gray-100;
     main {
@@ -80,7 +120,7 @@ main > section {
 }
 
 /* Two columns layout */
-@media screen(md) {
+@media screen and screen(md) {
   main {
     @apply grid grid-rows-1 grid-cols-[1fr_2fr];
     & > header {
@@ -93,7 +133,7 @@ main > section {
 }
 
 /* Sticky navigation */
-@media screen(md) {
+@media screen and screen(md) {
   main > header {
     @apply relative;
     & > nav {
@@ -114,6 +154,7 @@ ul#contacts {
 
 /* Navigation */
 nav {
+  @apply print:hidden;
   ul {
     li:before {
       /* .fa */
