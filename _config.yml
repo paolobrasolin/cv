@@ -5,6 +5,7 @@
 #encoding: "utf-8"
 
 exclude:
+  - "Makefile"
   - "_*/"
   - ".ruby-*"
   - "Gemfile*"
