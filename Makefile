@@ -9,5 +9,5 @@ www:
 
 dev:
 	tmux \
-		new-session 'bundle exec jekyll serve' \; \
+		new-session 'bundle exec jekyll serve --livereload' \; \
 		split-window 'yarn run watch:css'
