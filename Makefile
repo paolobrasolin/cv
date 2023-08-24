@@ -9,5 +9,5 @@ www:
 
 dev:
 	tmux \
-		new-session 'bundle exec jekyll serve --livereload' \; \
-		split-window 'yarn run watch:css'
+		new-session 'bundle exec jekyll serve --force_polling --livereload' \; \
+		split-window 'yarn run build:css --watch --verbose'
