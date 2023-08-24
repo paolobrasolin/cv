@@ -8,41 +8,29 @@ html {
   font-family: "Lato", sans-serif;
 }
 
-body {
-  @apply md:p-8 bg-gray-100;
-}
-
+/* Base style */
 main {
-  @apply shadow-lg;
   @apply bg-white text-black;
-  @apply max-w-4xl m-auto;
+
+  a[href] {
+    @apply underline;
+  }
 
   & > header {
-    @apply p-8;
     @apply bg-black text-white;
-    @apply flex gap-8 flex-row flex-wrap justify-start md:flex-col;
     h1 {
-      @apply w-full;
       @apply font-extrabold text-5xl;
     }
   }
 
-  section {
-    @apply p-8 sm:p-16;
-    @apply flex-col;
-
+  & > section {
     h2 {
       @apply text-3xl font-bold;
     }
 
     article {
-      @apply my-4;
-
       header {
-        @apply my-2;
-        @apply flex flex-wrap justify-between;
         h3 {
-          @apply w-full;
           @apply font-bold text-lg;
         }
         div,
@@ -52,37 +40,79 @@ main {
       }
     }
   }
+}
 
-  ul#contacts {
-    li {
-      @apply whitespace-nowrap;
-      i {
-        @apply w-4 inline-flex justify-center mr-1;
+/* Fluid main header layout */
+main > header {
+  @apply p-8 sm:px-16 md:p-8;
+  @apply flex gap-8 flex-row flex-wrap justify-start md:flex-col;
+  h1 {
+    @apply w-full;
+  }
+}
+
+/* Main sections layout  */
+main > section {
+  @apply p-8 sm:p-16;
+  @apply flex-col;
+
+  article {
+    @apply my-4;
+
+    header {
+      @apply my-2;
+      @apply flex flex-wrap justify-between;
+      h3 {
+        @apply w-full;
       }
     }
   }
+}
 
-  @media screen(md) {
+/* Floating sheet effect */
+@media screen(md) {
+  body {
+    @apply p-8 bg-gray-100;
+    main {
+      @apply max-w-4xl m-auto shadow-lg;
+    }
+  }
+}
+
+/* Two columns layout */
+@media screen(md) {
+  main {
     @apply grid grid-rows-1 grid-cols-[1fr_2fr];
     & > header {
       @apply col-start-1 col-end-2 row-start-1 row-end-[100];
     }
-    section {
+    & > section {
       @apply col-start-2 col-end-3;
-    }
-    & > header {
-      @apply relative;
-      nav {
-        @apply sticky top-4;
-      }
     }
   }
 }
 
-a[href] {
-  @apply underline;
+/* Sticky navigation */
+@media screen(md) {
+  main > header {
+    @apply relative;
+    & > nav {
+      @apply sticky top-4;
+    }
+  }
 }
 
+/* Contacts list */
+ul#contacts {
+  li {
+    @apply whitespace-nowrap;
+    i {
+      @apply w-4 inline-flex justify-center mr-1;
+    }
+  }
+}
+
+/* Navigation */
 nav {
   ul {
     li:before {
