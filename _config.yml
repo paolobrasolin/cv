@@ -5,4 +5,10 @@
 #encoding: "utf-8"
 
 exclude:
-  - _tailwind
+  - "_*/"
+  - ".ruby-*"
+  - "Gemfile*"
+  - "node_modules/"
+  - "yarn.lock"
+  - "*.config.js"
+  - "*.json"
