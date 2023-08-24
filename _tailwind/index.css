@@ -74,7 +74,7 @@ main {
 /* Main sections layout  */
 @media screen {
   main > section {
-    @apply p-8 sm:p-16;
+    @apply m-8 sm:m-16 md:mt-0 first-of-type:md:mt-16;
     @apply flex-col;
 
     article {
@@ -96,13 +96,9 @@ main {
     article {
       @apply my-2;
       header {
-        @apply flex break-after-avoid-page;
-        h3 {
-          @apply my-1;
+        @apply flex gap-4 items-baseline break-after-avoid-page;
+        div {
           @apply grow;
-        }
-        time::before {
-          content: ", ";
         }
       }
     }
