@@ -77,6 +77,10 @@ main {
     @apply m-8 sm:m-16 md:mt-0 first-of-type:md:mt-16;
     @apply flex-col;
 
+    h2 {
+      @apply mb-4;
+    }
+
     article {
       @apply my-4;
 
