@@ -112,7 +112,7 @@ main {
 /* Floating sheet effect */
 @media screen and screen(md) {
   body {
-    @apply p-8 bg-gray-100;
+    @apply p-8 bg-gray-200;
     main {
       @apply max-w-4xl m-auto shadow-lg;
     }
