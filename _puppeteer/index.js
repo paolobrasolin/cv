@@ -15,7 +15,7 @@ const puppeteer = require("puppeteer");
     waitUntil: "networkidle2",
   });
   await page.pdf({
-    path: "paolo-brasolin_cv.pdf",
+    path: `${__dirname}/../assets/paolo-brasolin-cv.pdf`,
     format: "a4",
   });
 
