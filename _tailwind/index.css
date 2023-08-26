@@ -49,6 +49,9 @@ main {
           @apply italic text-gray-500;
         }
       }
+      ul {
+        @apply list-[square] list-outside print:list-inside;
+      }
     }
   }
 }
