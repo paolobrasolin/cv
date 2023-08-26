@@ -17,9 +17,11 @@ items:
       range: 2022-02
       label: Feb 2022 -- **now**
     extra: |
-      I work in the Language Technologies group at the Institute for Applied Linguistics.
-      I'm appointed to the Zeit.Shift project, co-funded by EU through Interreg, for designing and developing a ludic citizen science project.
-      I'm also overseeing the modernization of the institute's Kubernetes cluster.
+      I serve as researcher and programmer for the Language Technologies group at the Institute for Applied Linguistics.
+      - Designed and developed a ludic citizen science project, bringing the EU co-funded Zeit.Shift project to fruition.
+      - Managed and reorganized the K8s cluster during a migration, providing a streamlined, more dependable infrastructure.
+      - Improved internal processes with documentation and automation, unblocking the publication of multiple frozen corpora.
+      - Advised PhD students and researchers from other groups, improving overall data and code literacy at the institute.
 
   - title: Lead Developer
     employer: Leanbit S.r.l. (Padua, IT)
