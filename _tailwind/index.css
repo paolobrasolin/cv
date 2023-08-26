@@ -51,6 +51,9 @@ main {
       }
       ul {
         @apply list-[square] list-outside print:list-inside;
+        li:before {
+          @apply print:-ml-2 print:content-[""];
+        }
       }
     }
   }
