@@ -35,6 +35,11 @@ main {
   }
 
   & > section {
+    p,
+    li {
+      @apply hyphens-auto;
+    }
+
     h2 {
       @apply text-3xl font-bold;
     }
