@@ -30,16 +30,10 @@ items:
       range: 2019-01/2022-10
       label: Jan 2019 -- Oct 2022
     extra: |
-      I honed my **management** skills through both experience and coaching. In
-      turn, I mentored and paired with new talents as our **Agile** principled company
-      grew to double the workforce it had when I joined.
-      Now we are transitioning from consulting to SaaS, and I focus my interest on
-      **reducing friction**; I firmly believe that ingraining attention to tools
-      and processes will bear great benefits, especially to **QOL for developers**.
-      While I assisted customers of very disparate sizes, my proudest achievement is
-      leading a GUI framework project for a multinational which deploys to the field
-      across the globe.
-
+      - Sharpened my management skills via coaching and practice, consulting with rotating teams for clients of disparate sizes.
+      - Delivered a GUI framework for a multinational now deploying it on field globally, marking a top success for our company.
+      - Mentored and paired with new talents, accompanying our agile-principled company as it grew to double the workforce.
+      - Refined tooling and reduced developer friction, strengthening the company foundations during a transition to SaaS.
   - title: Consultant, Typesetter
     employer: Manning Publications Co. (New York, US)
     location: full remote
