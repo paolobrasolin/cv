@@ -85,8 +85,8 @@ items:
     employer: freelance
     location: full remote
     dates:
-      range: 2015
-      label: 2015 -- **now**
+      range: 2015/2020
+      label: 2015 -- 2020 # TODO: is the final date accurate?
     # extra: |
     #   I negotiate and analyze specifications from customers with very diverse
     #   expertise. This allows me to cultivate the **tact and foresight** required
