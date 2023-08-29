@@ -1,0 +1,13 @@
+title: Projects
+body: |
+  - [**`commutative-diagrams`**](https://github.com/paolobrasolin/commutative-diagrams) is a thing.
+  - [**`string-diagrams`**](https://github.com/paolobrasolin/string-diagrams) is a thing.
+  - [**многоꙮтех**](https://github.com/paolobrasolin/mnogootex) is a thing.
+  - [**`fletcher`**](https://github.com/paolobrasolin/fletcher) is a thing.
+  - [**`krater`**](https://github.com/paolobrasolin/krater) is a thing.
+  - [**`setup-texlive-action`**](https://github.com/paolobrasolin/setup-texlive-action) is a thing.
+  - [**`ctan-submit-action`**](https://github.com/paolobrasolin/ctan-submit-action) is a thing.
+  - [**`remola`**](https://github.com/paolobrasolin/remola) is a thing.
+  - [**`stysyphus`**](https://github.com/paolobrasolin/stysyphus) is a thing .
+  - [**`jekyll-antex`**](https://github.com/paolobrasolin/jekyll-antex) is a Jekyll plugin using [**`antex`**](https://github.com/paolobrasolin/antex) to render arbitrary TeX.
+  - [**`jekyll-agda`**](https://github.com/paolobrasolin/jekyll-agda) is a Jekyll plugin to use literate Agda.
