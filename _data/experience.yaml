@@ -67,10 +67,10 @@ items:
     dates:
       range: 2017-03/2018-12
       label: Mar 2017 -- Dec 2018
-    extra: |
-      I integrated myself into a lean and mean team of consultants, contributing to
-      broadening their horizons. I exercised my **pragmatism** to undertake and
-      cut to the chase on the most exploratory projects.
+    # extra: |
+    #   I integrated myself into a lean and mean team of consultants, contributing to
+    #   broadening their horizons. I exercised my **pragmatism** to undertake and
+    #   cut to the chase on the most exploratory projects.
 
   - title: Lead Developer
     employer: Ideasmart (Padua, IT)
@@ -78,10 +78,10 @@ items:
     dates:
       range: 2016-06/2017-01
       label: Jun 2016 -- Jan 2017
-    extra: |
-      A tiny startup pitched an idea reliant upon rapidly changing laws.
-      I contributed to its kickoff by applying my inclination for technical **reconnaissance**
-      to quickly iterate towards a POC.
+    # extra: |
+    #   A tiny startup pitched an idea reliant upon rapidly changing laws.
+    #   I contributed to its kickoff by applying my inclination for technical **reconnaissance**
+    #   to quickly iterate towards a POC.
 
   - title: Programmer, Document Designer
     employer: freelance
@@ -89,10 +89,10 @@ items:
     dates:
       range: 2015
       label: 2015 -- **now**
-    extra: |
-      I negotiate and analyze specifications from customers with very diverse
-      expertise. This allows me to cultivate the **tact and foresight** required
-      to pave efficient roads leading them to satisfaction.
+    # extra: |
+    #   I negotiate and analyze specifications from customers with very diverse
+    #   expertise. This allows me to cultivate the **tact and foresight** required
+    #   to pave efficient roads leading them to satisfaction.
 
   - title: Private STEM tutor
     employer: freelance
@@ -100,7 +100,7 @@ items:
     dates:
       range: 2010/2020
       label: 2010 -- 2020
-    extra: |
-      I tapped into my love for sciences and enabled undergraduate students to grasp
-      the subjects and overcome their hurdles. I learned the importance of carefully
-      **tailoring communication**.
+    # extra: |
+    #   I tapped into my love for sciences and enabled undergraduate students to grasp
+    #   the subjects and overcome their hurdles. I learned the importance of carefully
+    #   **tailoring communication**.
