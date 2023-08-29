@@ -44,6 +44,13 @@ main {
       @apply text-3xl font-bold;
     }
 
+    ul {
+      @apply list-[square] list-outside print:list-inside;
+      li:before {
+        @apply print:-ml-2 print:content-[""];
+      }
+    }
+
     article {
       header {
         h3 {
@@ -52,12 +59,6 @@ main {
         div,
         time {
           @apply italic text-gray-500;
-        }
-      }
-      ul {
-        @apply list-[square] list-outside print:list-inside;
-        li:before {
-          @apply print:-ml-2 print:content-[""];
         }
       }
     }
