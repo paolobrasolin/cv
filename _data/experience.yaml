@@ -53,15 +53,13 @@ items:
     employer: Ribose Group Inc. (Hong Kong, CN)
     location: full remote
     dates:
-      range: 2017-07
-      label: Jul 2017 -- **now**
+      range: 2017-07/2020-08
+      label: Jul 2017 -- Aug 2020
     extra: |
-      The company is cooperating with ISO to establish global meta-standards and build
-      instruments to empower editors. I architected and implemented two staple
-      TeX tools of their ecosystem.
-      I am now taking care of them, and **OSS maintenance** is a precious lesson in
-      the equilibrium between fostering the community and its feedback while ensuring
-      technical excellence in the long term.
+      Ribose builds Metanorma, an open-source framework and meta-standard for producing standardization documents.
+      - Participated in drafting the AsciiRFC specification, submitted to IETF as the cornerstone of the meta-standard framework.
+      - Implemented and maintained LaTeX/AsciiDoc conversion tools, enabling LaTeX as an authoring format for Metanorma.
+      - Implemented and maintained Asciidoctor extensions, enabling usage of Bib(La)TeX in Metanorma and AsciiDoc in general.
 
   - title: Developer
     employer: Leanbit S.r.l. (Padua, IT)
