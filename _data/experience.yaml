@@ -42,12 +42,10 @@ items:
       range: 2019-01/2020-04
       label: Jan 2019 -- Apr 2020
     extra: |
-      A global publishing company has a complex pipeline involving many stakeholders.
-      Some were bound to be at odds, and I alleviated this by pushing small but
-      crucial technical choices.
-      I **strategically** accrued them across a few iterations
-      to acquire momentum and propose a complete rewrite of the TEX pipeline template.
-      Thus, I was successful in eradicating many difficulties for future authors.
+      Manning is a publisher specializing in technical literature, with an extensive catalogue of 2000+ titles.
+      Some key contributions:
+      - Mediated demands of editors and authors using technical solutions, delivering two typeset books while noting pain points.
+      - Suggested and executed improvements based on the above to the LaTeX publishing process, streamlining future iterations.
 
   - title: Consultant, OSS Maintainer
     employer: Ribose Group Inc. (Hong Kong, CN)
