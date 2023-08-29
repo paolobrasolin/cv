@@ -7,7 +7,7 @@
 
         <header>
             <h3>{{ item.title | markdownify | remove: "<p>" | remove: "</p>" }}</h3>
-            <div>{{ [item.employer, item.location] | join: ", " }}</div>
+            <div>{{ item.employer }}{% if item.location %}, {{ item.location }}{% endif %}</div>
             <time datetime="{{ items.dates.range }}">{{ item.dates.label | markdownify | remove: "<p>" | remove: "
                 </p>" }}</time>
         </header>
