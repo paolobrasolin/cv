@@ -164,6 +164,10 @@ main {
 ul#contacts {
   li {
     @apply whitespace-nowrap;
+    svg.icon {
+      @apply w-4 h-4 inline-block fill-current mr-1;
+      vertical-align: -0.125em;
+    }
     i {
       @apply w-4 inline-flex justify-center mr-1;
     }
@@ -174,23 +178,10 @@ ul#contacts {
 nav {
   @apply print:hidden;
   ul {
+    @apply list-inside;
     li:before {
-      /* .fa */
-      font-family: var(--fa-style-family, "Font Awesome 6 Free");
-      font-weight: var(--fa-style, 900);
-      -moz-osx-font-smoothing: grayscale;
-      -webkit-font-smoothing: antialiased;
-      display: var(--fa-display, inline-block);
-      font-style: normal;
-      font-variant: normal;
-      line-height: 1;
-      text-rendering: auto;
-      /* .fa-circle:before */
-      content: "\f111";
-      /* custom */
-      @apply w-4 inline-flex justify-center mr-1;
-      font-size: 0.5em;
-      vertical-align: 0.25em;
+      @apply inline-flex justify-center w-4 mr-1 text-base;
+      content: "•";
     }
   }
 }

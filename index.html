@@ -8,13 +8,17 @@ layout: default
     <ul id="contacts">
         {% for item in site.data.contacts %}
         <li>
-            <i aria-hidden="true" class="{{ item.icon }}" title="{{ item.label }}"></i>
+            <svg class="icon" aria-hidden="true" focusable="false" title="{{ item.label }}">
+                <use href="./assets/icons.svg#{{ item.icon }}">
+            </svg>
             <span class="sr-only">{{ item.label }}:</span>
             <a target="_blank" href="{{ item.link }}">{{ item.value }}</a>
         </li>
         {% endfor %}
         <li class="print:hidden">
-            <i aria-hidden="true" class="fas fa-file-pdf" title="PDF"></i>
+            <svg class="icon" aria-hidden="true" focusable="false" title="PDF">
+                <use href="./assets/icons.svg#file-pdf">
+            </svg>
             <span class="sr-only">PDF:</span>
             <a download href="https://github.com/paolobrasolin/cv/raw/main/assets/paolo-brasolin-cv.pdf">
                 Download PDF version

@@ -1,16 +1,16 @@
-- icon: fas fa-envelope
+- icon: envelope
   link: mailto:paolo.brasolin@gmail.com
   label: Email
   value: paolo.brasolin@gmail.com
-- icon: fa-brands fa-orcid
+- icon: orcid
   link: https://orcid.org/0000-0003-2471-7797
   label: ORCID
   value: 0000-0003-2471-7797
-- icon: fa-brands fa-github
+- icon: github
   link: https://github.com/paolobrasolin/
   label: GitHub
   value: paolobrasolin
-- icon: fa-brands fa-linkedin
+- icon: linkedin
   link: https://www.linkedin.com/in/paolobrasolin/
   label: LinkedIn
   value: paolobrasolin
