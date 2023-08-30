@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 html {
-  font-family: "Lato", sans-serif;
+  @apply font-sans;
 }
 
 /* Page setup for print media */
@@ -30,7 +30,7 @@ main {
   & > header {
     @apply bg-black text-white;
     h1 {
-      @apply font-extrabold text-5xl;
+      @apply font-bold text-5xl;
     }
   }
 
