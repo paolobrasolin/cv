@@ -3,6 +3,9 @@ description: Paolo Brasolin Curriculum Vitae
 
 baseurl: "/cv"
 
+compress_html:
+  comments: ["<!-- ", " -->"]
+
 exclude:
   - "Makefile"
   - "_tailwind/"
