@@ -3,7 +3,7 @@
   "private": "true",
   "scripts": {
     "build:pdf": "node _puppeteer/index.js --dir assets/",
-    "build:css": "postcss _tailwind/index.css --dir assets/",
+    "build:css": "postcss _tailwind/index.css --dir _includes/",
     "watch:css": "yarn run build:css --watch --verbose"
   },
   "dependencies": {},
