@@ -18,3 +18,4 @@ exclude:
   - "postcss.config.js"
   - "tailwind.config.js"
   - "package.json"
+  - "favicon.ico"
