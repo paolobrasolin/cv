@@ -160,6 +160,14 @@ main {
   }
 }
 
+/* Fix tap targets size for SEO */
+@media screen {
+  ul#contacts,
+  nav > ul {
+    @apply flex flex-col gap-2 sm:gap-1 md:gap-[unset];
+  }
+}
+
 /* Contacts list */
 ul#contacts {
   li {
