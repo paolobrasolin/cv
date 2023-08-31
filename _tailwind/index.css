@@ -118,7 +118,7 @@ main {
     article {
       @apply my-2;
       header {
-        @apply flex gap-4 items-baseline break-after-avoid-page;
+        @apply flex gap-4 items-baseline break-inside-avoid-page;
         div {
           @apply grow;
         }
