@@ -58,7 +58,7 @@ main {
         }
         div,
         time {
-          @apply italic text-gray-500;
+          @apply italic text-neutral-500;
         }
       }
     }
@@ -130,7 +130,7 @@ main {
 /* Floating sheet effect */
 @media screen and screen(md) {
   body {
-    @apply p-8 bg-gray-200;
+    @apply p-8 bg-neutral-200;
     main {
       @apply max-w-4xl m-auto shadow-lg;
     }
