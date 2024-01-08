@@ -113,7 +113,7 @@ main {
   main > section {
     @apply my-8;
     h2 {
-      @apply mb-2;
+      @apply mb-2 break-after-avoid-page;
     }
     article {
       @apply my-2;
