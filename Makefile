@@ -10,7 +10,8 @@ www:
 _includes/favicon.ico.base64: favicon.ico
 	base64 --wrap=0 $< > $@
 
-_data/publications.yaml: _data/publications.bib
+# NOTE: _data/my_publications.json is a CSL export from Zotero
+_data/publications.yaml: _data/my_publications.json
 	ruby _publications/main.rb $< > $@
 
 dev:

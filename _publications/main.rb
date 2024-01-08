@@ -1,10 +1,16 @@
-require 'bibtex'
 require 'citeproc'
 require 'csl/styles'
 require 'yaml'
+require 'json'
 
 cp = CiteProc::Processor.new style: 'apa-no-ampersand', format: 'html'
-cp.import BibTeX.open(ARGV[0]).to_citeproc
+
+entries = JSON.parse(File.read("_data/my_publications.json"))
+entries.sort_by! { |entry| entry.dig("issued", "date-parts")&.flatten || ["2100"] }
+entries.reverse!
+
+cp.import entries
+
 items = cp.render(:bibliography, cp.data)
 items = items.map do |item|
     "- " + item.tr('{}', '').gsub(/<i>(.*?)<\/i>/, '_\1_').gsub(URI.regexp(['http','https','ftp']), '[\0](\0)')
