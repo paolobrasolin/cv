@@ -1,661 +1,700 @@
-[
-  {
-    "id": "franziniZeitShiftDriving2022",
-    "type": "paper-conference",
-    "container-title": "Proceedings of Engaging Citizen Science Conference 2022 — PoS(CitSci2022)",
-    "DOI": "10.22323/1.418.0003",
-    "event-place": "Aarhus University, Denmark",
-    "event-title": "Engaging Citizen Science Conference 2022",
-    "language": "en",
-    "license": "All rights reserved",
-    "page": "003",
-    "publisher": "Sissa Medialab",
-    "publisher-place": "Aarhus University, Denmark",
-    "source": "DOI.org (Crossref)",
-    "title": "Zeit.shift: driving citizens to Tyrolean historical newspapers",
-    "URL": "https://pos.sissa.it/418/003",
-    "author": [
-      {
-        "family": "Franzini",
-        "given": "Greta"
-      },
-      {
-        "family": "Brasolin",
-        "given": "Paolo"
-      },
-      {
-        "family": "Lyding",
-        "given": "Verena"
-      },
-      {
-        "family": "Stemle",
-        "given": "Egon"
-      },
-      {
-        "family": "Abel",
-        "given": "Andrea"
-      },
-      {
-        "family": "Andresen",
-        "given": "Johannes"
-      }
-    ],
-    "accessed": {
-      "date-parts": [["2023", 10, 4]]
-    },
-    "issued": {
-      "date-parts": [["2022", 12, 15]]
-    }
-  },
-  {
-    "id": "walcherDigitalJourneyYesterday2023",
-    "type": "paper-conference",
-    "container-title": "Proceedings of Austrian Citizen Science Conference 2022 — PoS(ACSC2022)",
-    "DOI": "10.22323/1.407.0019",
-    "event-place": "Dornbirn, Austria",
-    "event-title": "Austrian Citizen Science Conference 2022",
-    "language": "en",
-    "license": "All rights reserved",
-    "page": "019",
-    "publisher": "Sissa Medialab",
-    "publisher-place": "Dornbirn, Austria",
-    "source": "DOI.org (Crossref)",
-    "title": "On a digital journey into yesterday's future: Zeit.shift – preserving Tyrol's cultural text heritage",
-    "title-short": "On a digital journey into yesterday's future",
-    "URL": "https://pos.sissa.it/407/019",
-    "author": [
-      {
-        "family": "Walcher",
-        "given": "Johanna"
-      },
-      {
-        "family": "Abel",
-        "given": "Andrea"
-      },
-      {
-        "family": "Andresen",
-        "given": "Johannes"
-      },
-      {
-        "family": "Brasolin",
-        "given": "Paolo"
-      },
-      {
-        "family": "Dissertori",
-        "given": "Isabella"
-      },
-      {
-        "family": "Eberwein",
-        "given": "Eva"
-      },
-      {
-        "family": "Franzini",
-        "given": "Greta"
-      },
-      {
-        "family": "Gstrein",
-        "given": "Silvia"
-      },
-      {
-        "family": "Maritta",
-        "given": "Horwath"
-      },
-      {
-        "family": "Kössler",
-        "given": "Christian"
-      },
-      {
-        "family": "Laner",
-        "given": "Barbara"
-      },
-      {
-        "family": "Lyding",
-        "given": "Verena"
-      },
-      {
-        "family": "Pircher",
-        "given": "Karin"
-      },
-      {
-        "family": "Stemle",
-        "given": "Egon"
-      }
-    ],
-    "accessed": {
-      "date-parts": [["2023", 10, 4]]
-    },
-    "issued": {
-      "date-parts": [["2023", 1, 2]]
-    }
-  },
-  {
-    "id": "franziniCitizenHumanitiesTyrol2022",
-    "type": "paper-conference",
-    "collection-title": "Quaderni di Umanistica Digitale",
-    "container-title": "AIUCD 2022 - Proceedings",
-    "DOI": "10.6092/UNIBO/AMSACTA/6848",
-    "event-title": "AIUCD 2022",
-    "ISBN": "978-88-942535-6-6",
-    "language": "en",
-    "license": "CC BY 4.0",
-    "note": "Misses attribution to Brasolin Paolo due to clerical error, see https://hdl.handle.net/10863/24248.",
-    "publisher": "University of Bologna",
-    "source": "DOI.org (Datacite)",
-    "title": "Citizen Humanities in Tyrol: A case study on historical newspapers",
-    "URL": "http://amsacta.unibo.it/6848",
-    "editor": [
-      {
-        "family": "Ciracì",
-        "given": "Fabio"
-      },
-      {
-        "family": "Miglietta",
-        "given": "Giulia"
-      },
-      {
-        "family": "Gatto",
-        "given": "Carola"
-      }
-    ],
-    "author": [
-      {
-        "family": "Franzini",
-        "given": "Greta"
-      },
-      {
-        "family": "Stemle",
-        "given": "Egon W."
-      },
-      {
-        "family": "Lyding",
-        "given": "Verena"
-      },
-      {
-        "family": "Abel",
-        "given": "Andrea"
-      },
-      {
-        "family": "Andresen",
-        "given": "Johannes"
-      },
-      {
-        "family": "Pircher",
-        "given": "Karin"
-      },
-      {
-        "family": "Gstrein",
-        "given": "Silvia"
-      },
-      {
-        "family": "Laner",
-        "given": "Barbara"
-      },
-      {
-        "family": "Walcher",
-        "given": "Johanna"
-      },
-      {
-        "family": "Horwath",
-        "given": "Maritta"
-      },
-      {
-        "family": "Kössler",
-        "given": "Christian"
-      }
-    ],
-    "accessed": {
-      "date-parts": [["2023", 6, 7]]
-    },
-    "issued": {
-      "date-parts": [["2022"]]
-    }
-  },
-  {
-    "id": "franziniCitizenHumanitiesTyrol2022a",
-    "type": "speech",
-    "event-place": "Lecce",
-    "event-title": "Annual Conference of the Italian Association of Digital Humanities 2022",
-    "genre": "Conference presentation",
-    "language": "en",
-    "license": "CC BY 4.0",
-    "publisher-place": "Lecce",
-    "title": "Citizen Humanities in Tyrol: A case study on historical newspapers",
-    "title-short": "Zeit.shift",
-    "URL": "https://hdl.handle.net/10863/24248",
-    "author": [
-      {
-        "family": "Franzini",
-        "given": "Greta"
-      },
-      {
-        "family": "Brasolin",
-        "given": "Paolo"
-      },
-      {
-        "family": "Stemle",
-        "given": "Egon W."
-      },
-      {
-        "family": "Lyding",
-        "given": "Verena"
-      },
-      {
-        "family": "Abel",
-        "given": "Andrea"
-      },
-      {
-        "family": "Andresen",
-        "given": "Johannes"
-      },
-      {
-        "family": "Pircher",
-        "given": "Karin"
-      },
-      {
-        "family": "Gstrein",
-        "given": "Silvia"
-      },
-      {
-        "family": "Laner",
-        "given": "Barbara"
-      },
-      {
-        "family": "Horwath",
-        "given": "Maritta"
-      },
-      {
-        "family": "Walcher",
-        "given": "Johanna"
-      },
-      {
-        "family": "Kössler",
-        "given": "Christian"
-      }
-    ],
-    "accessed": {
-      "date-parts": [["2023", 6, 7]]
-    },
-    "issued": {
-      "date-parts": [["2022"]]
-    }
-  },
-  {
-    "id": "stemleBotZenLangLearn2023",
-    "type": "speech",
-    "event-place": "Parma, Italy",
-    "event-title": "Eighth Evaluation Campaign of Natural Language Processing and Speech Tools for Italian",
-    "genre": "Conference presentation",
-    "language": "en",
-    "license": "All rights reserved",
-    "note": "ISSN: 1613-0073",
-    "publisher-place": "Parma, Italy",
-    "title": "bot.zen at LangLearn: regressing towards interpretability (short paper)",
-    "title-short": "bot.zen at LangLearn",
-    "author": [
-      {
-        "family": "Stemle",
-        "given": "Egon W."
-      },
-      {
-        "family": "Tebaldini",
-        "given": "Martina"
-      },
-      {
-        "family": "Bonanni",
-        "given": "Francesca"
-      },
-      {
-        "family": "Pellegrino",
-        "given": "Filippo"
-      },
-      {
-        "family": "Brasolin",
-        "given": "Paolo"
-      },
-      {
-        "family": "Franzini",
-        "given": "Greta H."
-      },
-      {
-        "family": "Frey",
-        "given": "Jennifer-Carmen"
-      },
-      {
-        "family": "Lopopolo",
-        "given": "Olga"
-      },
-      {
-        "family": "Spina",
-        "given": "Stefania"
-      }
-    ],
-    "contributor": [
-      {
-        "family": "Lai",
-        "given": "Mirko"
-      },
-      {
-        "family": "Menini",
-        "given": "Stefano"
-      },
-      {
-        "family": "Polignano",
-        "given": "Marco"
-      },
-      {
-        "family": "Russo",
-        "given": "Valentina"
-      },
-      {
-        "family": "Sprugnoli",
-        "given": "Rachele"
-      },
-      {
-        "family": "Venturi",
-        "given": "Giulia"
-      }
-    ],
-    "accessed": {
-      "date-parts": [["2023", 10, 4]]
-    },
-    "issued": {
-      "date-parts": [["2023", 9]]
-    }
-  },
-  {
-    "id": "stemleBotZenLangLearn2023a",
-    "type": "paper-conference",
-    "collection-title": "CEUR Workshop Proceedings",
-    "container-title": "Proceedings of the Eighth Evaluation Campaign of Natural Language Processing and Speech Tools for Italian. Final Workshop (EVALITA 2023)",
-    "event-place": "Parma, Italy",
-    "event-title": "Eighth Evaluation Campaign of Natural Language Processing and Speech Tools for Italian",
-    "language": "en",
-    "license": "All rights reserved",
-    "note": "ISSN: 1613-0073",
-    "publisher": "CEUR",
-    "publisher-place": "Parma, Italy",
-    "source": "CEUR Workshop Proceedings",
-    "title": "bot.zen at LangLearn: regressing towards interpretability (short paper)",
-    "title-short": "bot.zen at LangLearn",
-    "URL": "https://ceur-ws.org/Vol-3473/#21",
-    "volume": "3473",
-    "author": [
-      {
-        "family": "Stemle",
-        "given": "Egon W."
-      },
-      {
-        "family": "Tebaldini",
-        "given": "Martina"
-      },
-      {
-        "family": "Bonanni",
-        "given": "Francesca"
-      },
-      {
-        "family": "Pellegrino",
-        "given": "Filippo"
-      },
-      {
-        "family": "Brasolin",
-        "given": "Paolo"
-      },
-      {
-        "family": "Franzini",
-        "given": "Greta H."
-      },
-      {
-        "family": "Frey",
-        "given": "Jennifer-Carmen"
-      },
-      {
-        "family": "Lopopolo",
-        "given": "Olga"
-      },
-      {
-        "family": "Spina",
-        "given": "Stefania"
-      }
-    ],
-    "editor": [
-      {
-        "family": "Lai",
-        "given": "Mirko"
-      },
-      {
-        "family": "Menini",
-        "given": "Stefano"
-      },
-      {
-        "family": "Polignano",
-        "given": "Marco"
-      },
-      {
-        "family": "Russo",
-        "given": "Valentina"
-      },
-      {
-        "family": "Sprugnoli",
-        "given": "Rachele"
-      },
-      {
-        "family": "Venturi",
-        "given": "Giulia"
-      }
-    ],
-    "accessed": {
-      "date-parts": [["2023", 10, 4]]
-    },
-    "issued": {
-      "date-parts": [["2023", 9]]
-    }
-  },
-  {
-    "id": "spinaMappingEmergingVocabulary",
-    "type": "article-journal",
-    "container-title": "To appear in Research in Corpus Linguistics",
-    "ISSN": "2243-4712",
-    "journalAbbreviation": "RiCL",
-    "license": "All rights reserved",
-    "title": "Mapping emerging vocabulary in a large corpus of Italian tweets",
-    "author": [
-      {
-        "family": "Spina",
-        "given": "Stefania"
-      },
-      {
-        "family": "Brasolin",
-        "given": "Paolo"
-      },
-      {
-        "family": "Franzini",
-        "given": "Greta"
-      }
+{
+    "items": [
+        {
+            "id": "801699/WA2DTDMR",
+            "type": "paper-conference",
+            "title": "Citizen Humanities in Tyrol: A case study on historical newspapers",
+            "container-title": "AIUCD 2022 - Proceedings",
+            "collection-title": "Quaderni di Umanistica Digitale",
+            "publisher": "University of Bologna",
+            "publisher-place": "Lecce, Italy",
+            "page": "236-238",
+            "event": "AIUCD 2022",
+            "event-place": "Lecce, Italy",
+            "URL": "http://amsacta.unibo.it/6848",
+            "DOI": "10.6092/UNIBO/AMSACTA/6848",
+            "ISBN": "978-88-942535-6-6",
+            "note": "Misses attribution to Brasolin Paolo due to clerical error, see https://hdl.handle.net/10863/24248.",
+            "language": "en",
+            "editor": [
+                {
+                    "family": "Ciracì",
+                    "given": "Fabio"
+                },
+                {
+                    "family": "Miglietta",
+                    "given": "Giulia"
+                },
+                {
+                    "family": "Gatto",
+                    "given": "Carola"
+                }
+            ],
+            "author": [
+                {
+                    "family": "Franzini",
+                    "given": "Greta H."
+                },
+                {
+                    "family": "Stemle",
+                    "given": "Egon W."
+                },
+                {
+                    "family": "Lyding",
+                    "given": "Verena"
+                },
+                {
+                    "family": "Abel",
+                    "given": "Andrea"
+                },
+                {
+                    "family": "Andresen",
+                    "given": "Johannes"
+                },
+                {
+                    "family": "Pircher",
+                    "given": "Karin"
+                },
+                {
+                    "family": "Gstrein",
+                    "given": "Silvia"
+                },
+                {
+                    "family": "Laner",
+                    "given": "Barbara"
+                },
+                {
+                    "family": "Walcher",
+                    "given": "Johanna"
+                },
+                {
+                    "family": "Horwath",
+                    "given": "Maritta"
+                },
+                {
+                    "family": "Kössler",
+                    "given": "Christian"
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2022,
+                        1,
+                        20
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "801699/ZVEQ5HNF",
+            "type": "speech",
+            "title": "Citizen Humanities in Tyrol: A case study on historical newspapers",
+            "publisher-place": "Lecce, Italy",
+            "genre": "Conference presentation",
+            "event": "Annual Conference of the Italian Association of Digital Humanities 2022",
+            "event-place": "Lecce, Italy",
+            "URL": "https://hdl.handle.net/10863/24248",
+            "shortTitle": "Zeit.shift",
+            "language": "en",
+            "author": [
+                {
+                    "family": "Franzini",
+                    "given": "Greta H."
+                },
+                {
+                    "family": "Brasolin",
+                    "given": "Paolo"
+                },
+                {
+                    "family": "Stemle",
+                    "given": "Egon W."
+                },
+                {
+                    "family": "Lyding",
+                    "given": "Verena"
+                },
+                {
+                    "family": "Abel",
+                    "given": "Andrea"
+                },
+                {
+                    "family": "Andresen",
+                    "given": "Johannes"
+                },
+                {
+                    "family": "Pircher",
+                    "given": "Karin"
+                },
+                {
+                    "family": "Gstrein",
+                    "given": "Silvia"
+                },
+                {
+                    "family": "Laner",
+                    "given": "Barbara"
+                },
+                {
+                    "family": "Horwath",
+                    "given": "Maritta"
+                },
+                {
+                    "family": "Walcher",
+                    "given": "Johanna"
+                },
+                {
+                    "family": "Kössler",
+                    "given": "Christian"
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2022,
+                        6,
+                        3
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "801699/PCHD89NW",
+            "type": "paper-conference",
+            "title": "Zeit.shift: driving citizens to Tyrolean historical newspapers",
+            "container-title": "Proceedings of Engaging Citizen Science Conference 2022 — PoS(CitSci2022)",
+            "publisher": "Sissa Medialab",
+            "publisher-place": "Aarhus, Denmark",
+            "page": "003",
+            "event": "Engaging Citizen Science Conference 2022",
+            "event-place": "Aarhus, Denmark",
+            "URL": "https://pos.sissa.it/418/003",
+            "DOI": "10.22323/1.418.0003",
+            "language": "en",
+            "author": [
+                {
+                    "family": "Franzini",
+                    "given": "Greta H."
+                },
+                {
+                    "family": "Brasolin",
+                    "given": "Paolo"
+                },
+                {
+                    "family": "Lyding",
+                    "given": "Verena"
+                },
+                {
+                    "family": "Stemle",
+                    "given": "Egon"
+                },
+                {
+                    "family": "Abel",
+                    "given": "Andrea"
+                },
+                {
+                    "family": "Andresen",
+                    "given": "Johannes"
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2022,
+                        12,
+                        15
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "801699/8CVYZTGW",
+            "type": "paper-conference",
+            "title": "On a digital journey into yesterday's future: Zeit.shift – preserving Tyrol's cultural text heritage",
+            "container-title": "Proceedings of Austrian Citizen Science Conference 2022 — PoS(ACSC2022)",
+            "publisher": "Sissa Medialab",
+            "publisher-place": "Dornbirn, Austria",
+            "page": "019",
+            "event": "Austrian Citizen Science Conference 2022",
+            "event-place": "Dornbirn, Austria",
+            "URL": "https://pos.sissa.it/407/019",
+            "DOI": "10.22323/1.407.0019",
+            "shortTitle": "On a digital journey into yesterday's future",
+            "language": "en",
+            "author": [
+                {
+                    "family": "Walcher",
+                    "given": "Johanna"
+                },
+                {
+                    "family": "Abel",
+                    "given": "Andrea"
+                },
+                {
+                    "family": "Andresen",
+                    "given": "Johannes"
+                },
+                {
+                    "family": "Brasolin",
+                    "given": "Paolo"
+                },
+                {
+                    "family": "Dissertori",
+                    "given": "Isabella"
+                },
+                {
+                    "family": "Eberwein",
+                    "given": "Eva"
+                },
+                {
+                    "family": "Franzini",
+                    "given": "Greta H."
+                },
+                {
+                    "family": "Gstrein",
+                    "given": "Silvia"
+                },
+                {
+                    "family": "Maritta",
+                    "given": "Horwath"
+                },
+                {
+                    "family": "Kössler",
+                    "given": "Christian"
+                },
+                {
+                    "family": "Laner",
+                    "given": "Barbara"
+                },
+                {
+                    "family": "Lyding",
+                    "given": "Verena"
+                },
+                {
+                    "family": "Pircher",
+                    "given": "Karin"
+                },
+                {
+                    "family": "Stemle",
+                    "given": "Egon"
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2023,
+                        1,
+                        2
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "801699/N7VB8FVN",
+            "type": "article",
+            "title": "Breviloquia Italica annotations",
+            "URL": "https://zenodo.org/doi/10.5281/zenodo.10009942",
+            "DOI": "10.5281/zenodo.10009942",
+            "shortTitle": "breviloquia-italica/annotations",
+            "author": [
+                {
+                    "family": "Franzini",
+                    "given": "Greta H."
+                },
+                {
+                    "family": "Spina",
+                    "given": "Stefania"
+                },
+                {
+                    "family": "Brasolin",
+                    "given": "Paolo"
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2023,
+                        10,
+                        16
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "801699/N8S9NG23",
+            "type": "paper-conference",
+            "title": "\"Ti blocco perché sei un trollazzo\". Lexical Innovation in Contemporary Italian in a Large Twitter Corpus",
+            "container-title": "Proceedings of the 9th Italian Conference on Computational Linguistics",
+            "collection-title": "CEUR Workshop Proceedings",
+            "publisher": "CEUR",
+            "publisher-place": "Venezia, Italy",
+            "volume": "3596",
+            "event": "Italian Conference on Computational Linguistics",
+            "event-place": "Venezia, Italy",
+            "URL": "https://ceur-ws.org/Vol-3596/#paper12",
+            "note": "ISSN: 1613-0073",
+            "language": "en",
+            "author": [
+                {
+                    "family": "Brasolin",
+                    "given": "Paolo"
+                },
+                {
+                    "family": "Franzini",
+                    "given": "Greta H."
+                },
+                {
+                    "family": "Spina",
+                    "given": "Stefania"
+                }
+            ],
+            "editor": [
+                {
+                    "family": "Boschetti",
+                    "given": "Federico"
+                },
+                {
+                    "family": "Lebani",
+                    "given": "Gianluca E."
+                },
+                {
+                    "family": "Magnini",
+                    "given": "Bernardo"
+                },
+                {
+                    "family": "Novielli",
+                    "given": "Nicole"
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2023,
+                        12,
+                        2
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "801699/IYIIUXRZ",
+            "type": "article",
+            "title": "Breviloquia Italica dataset",
+            "URL": "https://zenodo.org/doi/10.5281/zenodo.10620336",
+            "DOI": "10.5281/zenodo.10620336",
+            "shortTitle": "breviloquia-italica/dataset",
+            "author": [
+                {
+                    "family": "Spina",
+                    "given": "Stefania"
+                },
+                {
+                    "family": "Brasolin",
+                    "given": "Paolo"
+                },
+                {
+                    "family": "Franzini",
+                    "given": "Greta H."
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2024,
+                        2,
+                        5
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "801699/W4CMZVF3",
+            "type": "article",
+            "title": "Ötzit! dataset",
+            "URL": "https://zenodo.org/doi/10.5281/zenodo.10623727",
+            "DOI": "10.5281/zenodo.10623727",
+            "shortTitle": "oetzit/dataset",
+            "author": [
+                {
+                    "family": "Franzini",
+                    "given": "Greta H."
+                },
+                {
+                    "family": "Brasolin",
+                    "given": "Paolo"
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2024,
+                        2,
+                        6
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "801699/MGGJFJ5R",
+            "type": "book",
+            "title": "Ötzit! application",
+            "URL": "https://zenodo.org/doi/10.5281/zenodo.10623662",
+            "note": "DOI: 10.5281/zenodo.10623662",
+            "shortTitle": "oetzit/application",
+            "author": [
+                {
+                    "family": "Brasolin",
+                    "given": "Paolo"
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2023,
+                        10,
+                        1
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "801699/3GMMXZ2P",
+            "type": "speech",
+            "title": "Between order and disorder: an ecological view of lexical complexity measures",
+            "abstract": "Slides deck for the paper presented at the PHRAME (Phraseological complexity measures in learner italian) conference, held in Perugia on 27th-28th November 2023. The paper compares the behavior of different lexical complexity measures on real and synthetic texts to assess whether the measures are capturing Kolmogorov or Gell-Mann complexity.",
+            "URL": "https://zenodo.org/records/10276248",
+            "note": "DOI: 10.5281/zenodo.10276248",
+            "shortTitle": "Between order and disorder",
+            "language": "en",
+            "author": [
+                {
+                    "family": "Bienati",
+                    "given": "Arianna"
+                },
+                {
+                    "family": "Brasolin",
+                    "given": "Paolo"
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2023,
+                        11,
+                        28
+                    ]
+                ]
+            },
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        1,
+                        8
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "801699/5J79ZQS3",
+            "type": "speech",
+            "title": "\"Ti blocco perché sei un trollazzo\". Lexical innovation in contemporary Italian in a large Twitter corpus",
+            "URL": "https://zenodo.org/records/10276318",
+            "note": "DOI: 10.5281/zenodo.10276318",
+            "language": "en",
+            "author": [
+                {
+                    "family": "Brasolin",
+                    "given": "Paolo"
+                },
+                {
+                    "family": "Franzini",
+                    "given": "Greta H."
+                },
+                {
+                    "family": "Spina",
+                    "given": "Stefania"
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2023,
+                        12,
+                        1
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "801699/CF5N68XJ",
+            "type": "book",
+            "title": "Breviloquia Italica data pipeline",
+            "URL": "https://zenodo.org/doi/10.5281/zenodo.8430341",
+            "note": "DOI: 10.5281/zenodo.8430341",
+            "shortTitle": "breviloquia-italica/pipeline",
+            "author": [
+                {
+                    "family": "Brasolin",
+                    "given": "Paolo"
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2023,
+                        10,
+                        11
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "801699/JDILL7JR",
+            "type": "speech",
+            "title": "bot.zen at LangLearn: regressing towards interpretability (short paper)",
+            "publisher-place": "Parma, Italy",
+            "genre": "Conference presentation",
+            "event": "Eighth Evaluation Campaign of Natural Language Processing and Speech Tools for Italian",
+            "event-place": "Parma, Italy",
+            "note": "ISSN: 1613-0073",
+            "shortTitle": "bot.zen at LangLearn",
+            "language": "en",
+            "author": [
+                {
+                    "family": "Stemle",
+                    "given": "Egon W."
+                },
+                {
+                    "family": "Tebaldini",
+                    "given": "Martina"
+                },
+                {
+                    "family": "Bonanni",
+                    "given": "Francesca"
+                },
+                {
+                    "family": "Pellegrino",
+                    "given": "Filippo"
+                },
+                {
+                    "family": "Brasolin",
+                    "given": "Paolo"
+                },
+                {
+                    "family": "Franzini",
+                    "given": "Greta H."
+                },
+                {
+                    "family": "Frey",
+                    "given": "Jennifer-Carmen"
+                },
+                {
+                    "family": "Lopopolo",
+                    "given": "Olga"
+                },
+                {
+                    "family": "Spina",
+                    "given": "Stefania"
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2023,
+                        9,
+                        8
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "801699/3PCRRWR4",
+            "type": "paper-conference",
+            "title": "bot.zen at LangLearn: regressing towards interpretability (short paper)",
+            "container-title": "Proceedings of the Eighth Evaluation Campaign of Natural Language Processing and Speech Tools for Italian. Final Workshop (EVALITA 2023)",
+            "collection-title": "CEUR Workshop Proceedings",
+            "publisher": "CEUR",
+            "publisher-place": "Parma, Italy",
+            "volume": "3473",
+            "event": "Eighth Evaluation Campaign of Natural Language Processing and Speech Tools for Italian",
+            "event-place": "Parma, Italy",
+            "URL": "https://ceur-ws.org/Vol-3473/#21",
+            "note": "ISSN: 1613-0073",
+            "shortTitle": "bot.zen at LangLearn",
+            "language": "en",
+            "author": [
+                {
+                    "family": "Stemle",
+                    "given": "Egon W."
+                },
+                {
+                    "family": "Tebaldini",
+                    "given": "Martina"
+                },
+                {
+                    "family": "Bonanni",
+                    "given": "Francesca"
+                },
+                {
+                    "family": "Pellegrino",
+                    "given": "Filippo"
+                },
+                {
+                    "family": "Brasolin",
+                    "given": "Paolo"
+                },
+                {
+                    "family": "Franzini",
+                    "given": "Greta H."
+                },
+                {
+                    "family": "Frey",
+                    "given": "Jennifer-Carmen"
+                },
+                {
+                    "family": "Lopopolo",
+                    "given": "Olga"
+                },
+                {
+                    "family": "Spina",
+                    "given": "Stefania"
+                }
+            ],
+            "editor": [
+                {
+                    "family": "Lai",
+                    "given": "Mirko"
+                },
+                {
+                    "family": "Menini",
+                    "given": "Stefano"
+                },
+                {
+                    "family": "Polignano",
+                    "given": "Marco"
+                },
+                {
+                    "family": "Russo",
+                    "given": "Valentina"
+                },
+                {
+                    "family": "Sprugnoli",
+                    "given": "Rachele"
+                },
+                {
+                    "family": "Venturi",
+                    "given": "Giulia"
+                }
+            ],
+            "issued": {
+                "date-parts": [
+                    [
+                        2023,
+                        9,
+                        8
+                    ]
+                ]
+            }
+        }
     ]
-  },
-  {
-    "id": "bienatiOrderDisorderEcological",
-    "type": "paper-conference",
-    "container-title": "To appear in Proceedings of Phraseological complexity measures in learner Italian",
-    "event-title": "Phraseological complexity measures in learner Italian",
-    "license": "All rights reserved",
-    "title": "Between order and disorder: an ecological view on lexical diversity measures",
-    "author": [
-      {
-        "family": "Bienati",
-        "given": "Arianna"
-      },
-      {
-        "family": "Brasolin",
-        "given": "Paolo"
-      }
-    ]
-  },
-  {
-    "id": "brasolinBreviloquiaitalicaAnnotations2023",
-    "type": "software",
-    "license": "All rights reserved",
-    "note": "DOI: 10.5281/zenodo.10016848",
-    "publisher": "Zenodo",
-    "source": "Zenodo",
-    "title": "breviloquia-italica/annotations: 1.0.0",
-    "title-short": "breviloquia-italica/annotations",
-    "URL": "https://zenodo.org/records/10016848",
-    "version": "v1.0.0",
-    "author": [
-      {
-        "family": "Brasolin",
-        "given": "Paolo"
-      },
-      {
-        "family": "Franzini",
-        "given": "Greta"
-      }
-    ],
-    "accessed": {
-      "date-parts": [["2024", 1, 8]]
-    },
-    "issued": {
-      "date-parts": [["2023", 10, 16]]
-    }
-  },
-  {
-    "id": "brasolinBreviloquiaitalicaPipeline2023",
-    "type": "software",
-    "license": "All rights reserved",
-    "note": "DOI: 10.5281/zenodo.10016881",
-    "publisher": "Zenodo",
-    "source": "Zenodo",
-    "title": "breviloquia-italica/pipeline: 1.1.0",
-    "title-short": "breviloquia-italica/pipeline",
-    "URL": "https://zenodo.org/records/10016881",
-    "version": "v1.1.0",
-    "author": [
-      {
-        "family": "Brasolin",
-        "given": "Paolo"
-      },
-      {
-        "family": "Franzini",
-        "given": "Greta"
-      }
-    ],
-    "accessed": {
-      "date-parts": [["2024", 1, 8]]
-    },
-    "issued": {
-      "date-parts": [["2023", 10, 16]]
-    }
-  },
-  {
-    "id": "brasolinTiBloccoPerche2023",
-    "type": "paper-conference",
-    "collection-title": "CEUR Workshop Proceedings",
-    "container-title": "Proceedings of the 9th Italian Conference on Computational Linguistics",
-    "event-place": "Venice, Italy",
-    "event-title": "Italian Conference on Computational Linguistics",
-    "language": "en",
-    "license": "All rights reserved",
-    "note": "ISSN: 1613-0073",
-    "publisher": "CEUR",
-    "publisher-place": "Venice, Italy",
-    "source": "CEUR Workshop Proceedings",
-    "title": "\"Ti blocco perché sei un trollazzo\". Lexical Innovation in Contemporary Italian in a Large Twitter Corpus",
-    "URL": "https://ceur-ws.org/Vol-3596/#paper12",
-    "volume": "3596",
-    "author": [
-      {
-        "family": "Brasolin",
-        "given": "Paolo"
-      },
-      {
-        "family": "Franzini",
-        "given": "Greta Hayley"
-      },
-      {
-        "family": "Spina",
-        "given": "Stefania"
-      }
-    ],
-    "editor": [
-      {
-        "family": "Boschetti",
-        "given": "Federico"
-      },
-      {
-        "family": "Lebani",
-        "given": "Gianluca E."
-      },
-      {
-        "family": "Magnini",
-        "given": "Bernardo"
-      },
-      {
-        "family": "Novielli",
-        "given": "Nicole"
-      }
-    ],
-    "accessed": {
-      "date-parts": [["2024", 1, 8]]
-    },
-    "issued": {
-      "date-parts": [["2023", 12, 30]]
-    }
-  },
-  {
-    "id": "brasolinTiBloccoPerche2023a",
-    "type": "speech",
-    "language": "eng",
-    "license": "All rights reserved",
-    "note": "DOI: 10.5281/zenodo.10276318",
-    "title": "\"Ti blocco perché sei un trollazzo\". Lexical innovation in contemporary Italian in a large Twitter corpus",
-    "URL": "https://zenodo.org/records/10276318",
-    "author": [
-      {
-        "family": "Brasolin",
-        "given": "Paolo"
-      },
-      {
-        "family": "Franzini",
-        "given": "Greta H."
-      },
-      {
-        "family": "Spina",
-        "given": "Stefania"
-      }
-    ],
-    "accessed": {
-      "date-parts": [["2024", 1, 8]]
-    },
-    "issued": {
-      "date-parts": [["2023", 12, 1]]
-    }
-  },
-  {
-    "id": "bienatiOrderDisorderEcological2023",
-    "type": "speech",
-    "abstract": "Slides deck for the paper presented at the PHRAME (Phraseological complexity measures in learner italian) conference, held in Perugia on 27th-28th November 2023. The paper compares the behavior of different lexical complexity measures on real and synthetic texts to assess whether the measures are capturing Kolmogorov or Gell-Mann complexity.",
-    "language": "eng",
-    "license": "All rights reserved",
-    "note": "DOI: 10.5281/zenodo.10276248",
-    "title": "Between order and disorder: an ecological view of lexical complexity measures",
-    "title-short": "Between order and disorder",
-    "URL": "https://zenodo.org/records/10276248",
-    "author": [
-      {
-        "family": "Bienati",
-        "given": "Arianna"
-      },
-      {
-        "family": "Brasolin",
-        "given": "Paolo"
-      }
-    ],
-    "accessed": {
-      "date-parts": [["2024", 1, 8]]
-    },
-    "issued": {
-      "date-parts": [["2023", 11, 28]]
-    }
-  }
-]
+}

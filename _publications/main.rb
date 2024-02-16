@@ -5,7 +5,13 @@ require 'json'
 
 cp = CiteProc::Processor.new style: 'apa-no-ampersand', format: 'html'
 
-entries = JSON.parse(File.read("_data/my_publications.json"))
+entries = JSON.parse(File.read("_data/my_publications.json")).dig("items")
+
+# FIXME: not sure why but citeproc doesn't like dashes
+entries.each do |entry|
+  entry.delete("page") if entry["page"]&.include?("-")
+end
+
 entries.sort_by! { |entry| entry.dig("issued", "date-parts")&.flatten || ["2100"] }
 entries.reverse!
 
