@@ -1,10 +1,12 @@
 log := @printf "\n\u001b[7m ■ %s \u001b[0m\n"
 
 css:
-	yarn run build:css
+	docker-compose run node yarn run build:css
 
-pdf:
-	yarn run build:pdf
+www:
+	docker-compose run ruby bundle exec jekyll build
+
+pdf: assets/paolo-brasolin-cv.pdf
 
 assets/paolo-brasolin-cv.pdf:
 	$(log) "Create target path $(dir $@)"
@@ -25,17 +27,10 @@ assets/paolo-brasolin-cv.pdf:
 	$(log) "Restore strict permissions on target"
 	chmod -R o-w $@
 
-www:
-	bundle exec jekyll build
-
 _includes/favicon.ico.base64: favicon.ico
 	base64 --wrap=0 $< > $@
 
 # NOTE: _data/my_publications.json is a CSL export from Zotero
 _data/publications.yaml: _data/my_publications.json
-	ruby _publications/main.rb $< > $@
+	docker-compose run ruby ruby _publications/main.rb $< > $@
 
-dev:
-	tmux \
-		new-session 'bundle exec jekyll serve --force_polling --livereload' \; \
-		split-window 'yarn run build:css --watch --verbose'
