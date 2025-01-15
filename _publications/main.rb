@@ -5,7 +5,7 @@ require "json"
 
 cp = CiteProc::Processor.new style: "apa-no-ampersand", format: "html"
 
-entries = JSON.parse(File.read("_data/my_publications.json")).dig("items")
+entries = JSON.parse(File.read("_data/my_publications.json"))
 
 # FIXME: not sure why but citeproc doesn't like dashes
 entries.each do |entry|
