@@ -3,9 +3,8 @@
   "private": "true",
   "scripts": {
     "build:css": "postcss _tailwind/index.css --dir _includes/",
-    "watch:css": "yarn run build:css --watch --verbose"
+    "watch:css": "npm run build:css -- --watch --verbose"
   },
-  "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^10.4.14",
     "cssnano": "^6.0.1",
