@@ -1,10 +1,13 @@
 log := @printf "\n\u001b[7m ■ %s \u001b[0m\n"
 
+dev:
+	bundle exec jekyll serve --livereload
+
 css:
-	docker-compose run node yarn run build:css
+	npm run build:css
 
 www:
-	docker-compose run ruby bundle exec jekyll build
+	bundle exec jekyll build
 
 pdf: assets/paolo-brasolin-cv.pdf
 
@@ -32,5 +35,5 @@ _includes/favicon.ico.base64: favicon.ico
 
 # NOTE: _data/my_publications.json is a CSL export from Zotero
 _data/publications.yaml: _data/my_publications.json
-	docker-compose run ruby ruby _publications/main.rb $< > $@
+	ruby _publications/main.rb $< > $@
 
