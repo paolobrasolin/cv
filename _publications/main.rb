@@ -1,9 +1,9 @@
-require 'citeproc'
-require 'csl/styles'
-require 'yaml'
-require 'json'
+require "citeproc"
+require "csl/styles"
+require "yaml"
+require "json"
 
-cp = CiteProc::Processor.new style: 'apa-no-ampersand', format: 'html'
+cp = CiteProc::Processor.new style: "apa-no-ampersand", format: "html"
 
 entries = JSON.parse(File.read("_data/my_publications.json")).dig("items")
 
@@ -19,6 +19,6 @@ cp.import entries
 
 items = cp.render(:bibliography, cp.data)
 items = items.map do |item|
-    "- " + item.tr('{}', '').gsub(/<i>(.*?)<\/i>/, '_\1_').gsub(URI.regexp(['http','https','ftp']), '[\0](\0)')
+  "- " + item.tr("{}", "").gsub(/<i>(.*?)<\/i>/, '_\1_').gsub(URI.regexp(["http", "https", "ftp"]), '[\0](\0)')
 end
 puts ({ "title" => "Publications", "body" => items.join("\n") }.to_yaml)
