@@ -18,7 +18,9 @@ entries.reverse!
 cp.import entries
 
 items = cp.render(:bibliography, cp.data)
-items = items.map do |item|
-  "- " + item.tr("{}", "").gsub(/<i>(.*?)<\/i>/, '_\1_').gsub(URI.regexp(["http", "https", "ftp"]), '[\0](\0)')
+items = items.zip(entries).map do |item, entry|
+  label = item.tr("{}", "").gsub(/<i>(.*?)<\/i>/, '_\1_').gsub(URI.regexp(["http", "https", "ftp"]), '[\0](\0)')
+  label = "**#{label}**" if ["article-journal", "paper-conference"].include?(entry["type"])
+  "- " + label
 end
 puts ({ "title" => "Publications", "body" => items.join("\n") }.to_yaml)
