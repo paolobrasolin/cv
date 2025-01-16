@@ -1,6 +1,6 @@
 {% if include.content.items %}
 <section>
-  <h2><a name="{{ include.content.title | slugify }}">{{ include.content.title }}</a></h2>
+  <h2 id="{{ include.content.title | slugify }}">{{ include.content.title }}</h2>
 
   {% for item in include.content.items %}
   <article>
