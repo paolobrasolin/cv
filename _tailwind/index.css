@@ -14,6 +14,7 @@ html {
     size: a4 portrait;
     margin: 2rem;
   }
+
   html {
     font-size: 10pt;
   }
@@ -27,14 +28,16 @@ main {
     @apply underline;
   }
 
-  & > header {
+  &>header {
     @apply bg-black text-white;
+
     h1 {
       @apply font-bold text-5xl;
     }
   }
 
-  & > section {
+  &>section {
+
     p,
     li {
       @apply hyphens-auto;
@@ -46,6 +49,7 @@ main {
 
     ul {
       @apply list-[square] list-outside print:list-inside;
+
       li:before {
         @apply print:-ml-2 print:content-[""];
       }
@@ -56,6 +60,7 @@ main {
         h3 {
           @apply font-bold text-lg;
         }
+
         div,
         time {
           @apply italic text-neutral-500;
@@ -67,19 +72,22 @@ main {
 
 /* Fluid main header layout */
 @media screen {
-  main > header {
+  main>header {
     @apply p-8 sm:px-16 md:p-8;
     @apply flex gap-8 flex-row flex-wrap justify-start;
     @apply md:flex-col;
+
     h1 {
       @apply w-full;
     }
   }
 }
+
 @media print {
-  main > header {
+  main>header {
     @apply flex flex-row;
     @apply text-black bg-white;
+
     h1 {
       word-spacing: 100vw;
     }
@@ -88,7 +96,7 @@ main {
 
 /* Main sections layout  */
 @media screen {
-  main > section {
+  main>section {
     @apply m-8 sm:m-16 md:mt-0 first-of-type:md:mt-16;
     @apply flex-col;
 
@@ -102,6 +110,7 @@ main {
       header {
         @apply my-2;
         @apply flex flex-wrap justify-between;
+
         h3 {
           @apply w-full;
         }
@@ -109,16 +118,21 @@ main {
     }
   }
 }
+
 @media print {
-  main > section {
+  main>section {
     @apply my-8;
+
     h2 {
       @apply mb-2 break-after-avoid-page;
     }
+
     article {
       @apply my-2;
+
       header {
         @apply flex gap-4 items-baseline break-inside-avoid-page;
+
         div {
           @apply grow;
         }
@@ -131,6 +145,7 @@ main {
 @media screen and screen(md) {
   body {
     @apply p-8 bg-neutral-200;
+
     main {
       @apply max-w-4xl m-auto shadow-lg;
     }
@@ -141,10 +156,12 @@ main {
 @media screen and screen(md) {
   main {
     @apply grid grid-rows-1 grid-cols-[1fr_2fr];
-    & > header {
+
+    &>header {
       @apply col-start-1 col-end-2 row-start-1 row-end-[100];
     }
-    & > section {
+
+    &>section {
       @apply col-start-2 col-end-3;
     }
   }
@@ -152,9 +169,10 @@ main {
 
 /* Sticky navigation */
 @media screen and screen(md) {
-  main > header {
+  main>header {
     @apply relative;
-    & > nav {
+
+    &>nav {
       @apply sticky top-4;
     }
   }
@@ -162,8 +180,9 @@ main {
 
 /* Fix tap targets size for SEO */
 @media screen {
+
   ul#contacts,
-  nav > ul {
+  nav>ul {
     @apply flex flex-col gap-2 sm:gap-1 md:gap-[unset];
   }
 }
@@ -172,10 +191,12 @@ main {
 ul#contacts {
   li {
     @apply whitespace-nowrap;
+
     svg.icon {
       @apply w-4 h-4 inline-block fill-current mr-1;
       vertical-align: -0.125em;
     }
+
     i {
       @apply w-4 inline-flex justify-center mr-1;
     }
@@ -185,8 +206,10 @@ ul#contacts {
 /* Navigation */
 nav {
   @apply print:hidden;
+
   ul {
     @apply list-inside;
+
     li:before {
       @apply inline-flex justify-center w-4 mr-1 text-base;
       content: "•";
