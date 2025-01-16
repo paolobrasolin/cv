@@ -3,49 +3,49 @@ layout: default
 ---
 
 <header>
-    <h1>Paolo Brasolin</h1>
+  <h1>Paolo Brasolin</h1>
 
+  <ul id="contacts">
+    {% for item in site.data.contacts %}
+    <li>
+      <svg class="icon" aria-hidden="true" focusable="false" title="{{ item.label }}">
+        <use href="#{{ item.icon }}">
+      </svg>
+      <span class="sr-only">{{ item.label }}:</span>
+      <a target="_blank" href="{{ item.link }}">{{ item.value }}</a>
+    </li>
+    {% endfor %}
+    <li class="print:hidden">
+      <svg class="icon" aria-hidden="true" focusable="false" title="PDF">
+        <use href="#file-pdf">
+      </svg>
+      <span class="sr-only">PDF:</span>
+      <a download href="https://github.com/paolobrasolin/cv/raw/main/assets/paolo-brasolin-cv.pdf">
+        Download PDF version
+      </a>
+    </li>
+    <li class="hidden print:list-item">
+      <svg class="icon" aria-hidden="true" focusable="false" title="Web">
+        <use href="#globe">
+      </svg>
+      <span class="sr-only">Web:</span>
+      <a href="https://paolobrasolin.github.io/cv/">
+        Visit web version
+      </a>
+    </li>
+  </ul>
+
+  <nav>
     <ul id="contacts">
-        {% for item in site.data.contacts %}
-        <li>
-            <svg class="icon" aria-hidden="true" focusable="false" title="{{ item.label }}">
-                <use href="#{{ item.icon }}">
-            </svg>
-            <span class="sr-only">{{ item.label }}:</span>
-            <a target="_blank" href="{{ item.link }}">{{ item.value }}</a>
-        </li>
-        {% endfor %}
-        <li class="print:hidden">
-            <svg class="icon" aria-hidden="true" focusable="false" title="PDF">
-                <use href="#file-pdf">
-            </svg>
-            <span class="sr-only">PDF:</span>
-            <a download href="https://github.com/paolobrasolin/cv/raw/main/assets/paolo-brasolin-cv.pdf">
-                Download PDF version
-            </a>
-        </li>
-        <li class="hidden print:list-item">
-            <svg class="icon" aria-hidden="true" focusable="false" title="Web">
-                <use href="#globe">
-            </svg>
-            <span class="sr-only">Web:</span>
-            <a href="https://paolobrasolin.github.io/cv/">
-                Visit web version
-            </a>
-        </li>
+      <li><a href="#profile">Profile</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <!-- <li><a href="#service">Service</a></li> -->
+      <li><a href="#education">Education</a></li>
+      <!-- <li><a href="#projects">Projects</a></li> -->
+      <li><a href="#service">Service</a></li>
+      <li><a href="#publications">Publications</a></li>
     </ul>
-
-    <nav>
-        <ul id="contacts">
-            <li><a href="#profile">Profile</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <!-- <li><a href="#service">Service</a></li> -->
-            <li><a href="#education">Education</a></li>
-            <!-- <li><a href="#projects">Projects</a></li> -->
-            <li><a href="#service">Service</a></li>
-            <li><a href="#publications">Publications</a></li>
-        </ul>
-    </nav>
+  </nav>
 
 </header>
 
