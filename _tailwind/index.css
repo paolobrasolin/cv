@@ -20,6 +20,12 @@ html {
   }
 }
 
+@media screen and (prefers-reduced-motion: no-preference) {
+  html {
+    @apply scroll-smooth;
+  }
+}
+
 /* Base style */
 main {
   @apply bg-white text-black;
@@ -101,7 +107,7 @@ main {
     @apply flex-col;
 
     h2 {
-      @apply mb-4;
+      @apply mb-4 scroll-mt-4 sm:scroll-mt-8;
     }
 
     article {
