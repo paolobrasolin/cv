@@ -1,5 +1,14 @@
 title: Experience
 items:
+  - title: Researcher
+    employer: Università Cattolica del Sacro Cuore (Milan, IT)
+    location: remote
+    dates:
+      range: 2024-06/2025-11
+      label: Jul 2024 -- Nov 2025
+    extra: |
+      I serve as a _contract researcher_ at the _Centro Interdisciplinare di Ricerche per la Computerizzazione dei Segni dell’Espressione_.
+
   - title: Co-founder, CTO
     employer: AudioGiro S.r.l. (Padua, IT)
     location: full remote
@@ -17,7 +26,7 @@ items:
       range: 2022-02
       label: Feb 2022 -- Feb 2024
     extra: |
-      I serve as a _researcher in computational linguistics and advanced scientific programmer_ for the _Language Technologies_ group at the _Institute for Applied Linguistics_. Some key achievements:
+      I served as a _researcher in computational linguistics and advanced scientific programmer_ for the _Language Technologies_ group at the _Institute for Applied Linguistics_. Some key achievements:
       - Designed and developed a ludic citizen science project, bringing the EU co-funded Zeit.Shift project to fruition.
       - Managed and reorganized the K8s cluster during a migration, providing a streamlined, more dependable infrastructure.
       - Improved internal processes with documentation and automation, unblocking the publication of multiple frozen corpora.
