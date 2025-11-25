@@ -35,5 +35,5 @@ _includes/favicon.ico.base64: favicon.ico
 
 # NOTE: _data/my_publications.json is a CSL export from Zotero
 _data/publications.yaml: _data/my_publications.json
-	ruby _publications/main.rb $< > $@
+	bundle exec ruby _publications/main.rb $< > $@
 
