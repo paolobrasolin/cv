@@ -1101,5 +1101,464 @@
         ]
       ]
     }
+  },
+  {
+    "id": "http://zotero.org/users/959956/items/2X7FHXEJ",
+    "type": "paper-conference",
+    "abstract": "This paper describes the LiITA Knowledge Base of interoperable linguistic resources for Italian.By adhering to the Linked Open Data principles, LiITA ensures and facilitates interoperability between distributed resources. The paper outlines the lemma-centered architecture of the Knowledge Base and details its core component: the Lemma Bank, a collection of Italian lemmas designed to interlink distributed lexical and textual resources.",
+    "container-title": "Proceedings of the 5th Conference on Language, Data and Knowledge",
+    "event-place": "Naples, Italy",
+    "event-title": "LDK 2025",
+    "ISBN": "978-88-6719-333-2",
+    "page": "130–135",
+    "publisher": "Unior Press",
+    "publisher-place": "Naples, Italy",
+    "source": "ACLWeb",
+    "title": "LiITA: a Knowledge Base of Interoperable Resources for Italian",
+    "title-short": "LiITA",
+    "URL": "https://aclanthology.org/2025.ldk-1.14/",
+    "author": [
+      {
+        "family": "Litta",
+        "given": "Eleonora"
+      },
+      {
+        "family": "Passarotti",
+        "given": "Marco Carlo"
+      },
+      {
+        "family": "Basile",
+        "given": "Valerio"
+      },
+      {
+        "family": "Bosco",
+        "given": "Cristina"
+      },
+      {
+        "family": "Fabio",
+        "given": "Andrea Di"
+      },
+      {
+        "family": "Brasolin",
+        "given": "Paolo"
+      }
+    ],
+    "editor": [
+      {
+        "family": "Alam",
+        "given": "Mehwish"
+      },
+      {
+        "family": "Tchechmedjiev",
+        "given": "Andon"
+      },
+      {
+        "family": "Gracia",
+        "given": "Jorge"
+      },
+      {
+        "family": "Gromann",
+        "given": "Dagmar"
+      },
+      {
+        "family": "Buono",
+        "given": "Maria Pia",
+        "non-dropping-particle": "di"
+      },
+      {
+        "family": "Monti",
+        "given": "Johanna"
+      },
+      {
+        "family": "Ionov",
+        "given": "Maxim"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          11,
+          25
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2025",
+          9,
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/959956/items/BH3HLEVG",
+    "type": "paper-conference",
+    "abstract": "The paper introduces the LiIta Knowledge Base of interoperable linguistic resources for Italian. After describing the principles of the Linked Data paradigm, on which LiIta is grounded, the paper presents the lemma-centred architecture of the Knowledge Base and details its core component, consisting of a large collection of Italian lemmas (called the Lemma Bank) used to interlink distributed lexical and textual resources.",
+    "collection-title": "CEUR Workshop Proceedings",
+    "container-title": "Proceedings of the Tenth Italian Conference on Computational Linguistics (CLiC-it 2024)",
+    "event-place": "Pisa, Italy",
+    "event-title": "CLiC-it 2024",
+    "ISBN": "979-12-210-7060-6",
+    "language": "en",
+    "page": "517–522",
+    "publisher": "CEUR",
+    "publisher-place": "Pisa, Italy",
+    "title": "The Lemma Bank of the LiITA Knowledge Base of Interoperable Resources for Italian",
+    "URL": "https://ceur-ws.org/Vol-3878/#60_main_long",
+    "volume": "3878",
+    "author": [
+      {
+        "family": "Litta",
+        "given": "Eleonora"
+      },
+      {
+        "family": "Passarotti",
+        "given": "Marco"
+      },
+      {
+        "family": "Brasolin",
+        "given": "Paolo"
+      },
+      {
+        "family": "Moretti",
+        "given": "Giovanni"
+      },
+      {
+        "family": "Basile",
+        "given": "Valerio"
+      },
+      {
+        "family": "Di Fabio",
+        "given": "Andrea"
+      },
+      {
+        "family": "Bosco",
+        "given": "Cristina"
+      }
+    ],
+    "editor": [
+      {
+        "family": "Dell'Orletta",
+        "given": "Felice"
+      },
+      {
+        "family": "Lenci",
+        "given": "Alessandro"
+      },
+      {
+        "family": "Montemagni",
+        "given": "Simonetta"
+      },
+      {
+        "family": "Sprugnoli",
+        "given": "Rachele"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          11,
+          25
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2024",
+          12,
+          6
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/959956/items/ZXKBFRVP",
+    "type": "paper-conference",
+    "abstract": "ITALIANO) Il progetto LiITA (https://www.liita.it/) si propone di rendere interoperabile e quindi sfruttare la ricchezza di risorse linguistiche disponibili per la lingua italiana (corpora, edizioni digitali, lessici, dizionari e glossari) attraverso l’applicazione dei principi Linked Open Data. Questo articolo descrive i primi passi per lo sviluppo di una Knowledge Base aperta, in cui le risorse linguistiche sono rese interoperabili attraverso il collegamento delle voci delle risorse lessicali e delle occorrenze delle risorse testuali alle forme di citazione registrate in una raccolta di lemmi (Lemma Bank) della lingua italiana. Seguendo i principi del paradigma Linked Open Data, l'interoperabilità concettuale tra le risorse distribuite connesse in LiITA è ottenuta applicando un vocabolario per la descrizione della conoscenza comunemente utilizzato nel mondo dei Linked Open Data linguistici, adottando modelli ampiamente utilizzati, tra cui il principale è OntoLexLemon.",
+    "collection-title": "Quaderni di Umanistica Digitale",
+    "container-title": "Diversità, Equità e Inclusione: Sfide e Opportunità per l’Informatica Umanistica nell’Era dell’Intelligenza Artificiale, Proceedings del XIV Convegno Annuale AIUCD2025",
+    "DOI": "10.6092/unibo/amsacta/8380",
+    "event-place": "Verona, Italy",
+    "event-title": "XIV Convegno Annuale AIUCD2025",
+    "ISBN": "978-88-942535-9-7",
+    "language": "it",
+    "page": "460-465",
+    "publisher": "AIUCD",
+    "publisher-place": "Verona, Italy",
+    "source": "Zotero",
+    "title": "LiITA, una Knowledge Base di risorse interconnesse per l’italiano",
+    "URL": "https://amsacta.unibo.it/8380/",
+    "author": [
+      {
+        "family": "Litta",
+        "given": "Eleonora"
+      },
+      {
+        "family": "Passarotti",
+        "given": "Marco"
+      },
+      {
+        "family": "Brasolin",
+        "given": "Paolo"
+      },
+      {
+        "family": "Basile",
+        "given": "Valerio"
+      },
+      {
+        "family": "Bosco",
+        "given": "Cristina"
+      },
+      {
+        "family": "Fabio",
+        "given": "Andrea Di"
+      }
+    ],
+    "editor": [
+      {
+        "family": "Rebora",
+        "given": "Simone"
+      },
+      {
+        "family": "Rospocher",
+        "given": "Marco"
+      },
+      {
+        "family": "Bazzaco",
+        "given": "Stefano"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2025",
+          6,
+          11
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/959956/items/LT266I53",
+    "type": "paper-conference",
+    "abstract": "This paper presents the integration of CompL-it, a Linked Open Data (LOD) computational lexicon for contemporary Italian, into LiITA (Linking Italian), a Knowledge Base (KB) designed for linguistic interoperability. CompL-it contains over 101k lexical entries enriched with detailed morphological and semantic information, derived from multiple authoritative sources and modelled using the OntoLex-Lemon vocabulary. The linking process involved aligning lexical entries with lemmas in the LiITA’s Lemma Bank (LB), addressing both exact and ambiguous matches through systematic and semantically informed strategies. Moreover, 12,739 new lemmas were added to the LiITA LB. This integration enhances the expressiveness and interoperability of LiITA, enabling complex SPARQL queries that exploit the semantic network encoded in CompL-it. Examples are provided to demonstrate the advantages of querying interlinked resources.",
+    "collection-title": "CEUR Workshop Proceedings",
+    "container-title": "Proceedings of the Eleventh Italian Conference on Computational Linguistics (CLiC-it 2025)",
+    "event-place": "Cagliari, Italy",
+    "event-title": "CLiC-it 2025",
+    "language": "en",
+    "publisher": "CEUR",
+    "publisher-place": "Cagliari, Italy",
+    "source": "Zotero",
+    "title": "Linking CompL-it to the LiITA Knowledge Base",
+    "URL": "https://clic2025.unica.it/pre-proceedings/",
+    "author": [
+      {
+        "family": "Litta",
+        "given": "Eleonora"
+      },
+      {
+        "family": "Passarotti",
+        "given": "Marco"
+      },
+      {
+        "family": "Moretti",
+        "given": "Giovanni"
+      },
+      {
+        "family": "Brasolin",
+        "given": "Paolo"
+      },
+      {
+        "family": "Mambrini",
+        "given": "Francesco"
+      },
+      {
+        "family": "Basile",
+        "given": "Valerio"
+      },
+      {
+        "family": "Bosco",
+        "given": "Cristina"
+      },
+      {
+        "family": "Fabio",
+        "given": "Andrea Di"
+      },
+      {
+        "family": "Palma",
+        "given": "Eliana Di"
+      },
+      {
+        "family": "Giovannetti",
+        "given": "Emiliano"
+      },
+      {
+        "family": "Marchi",
+        "given": "Simone"
+      },
+      {
+        "family": "Bellandi",
+        "given": "Andrea"
+      },
+      {
+        "family": "Sciolette",
+        "given": "Flavia"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2025",
+          9,
+          25
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/959956/items/GKWJBU97",
+    "type": "speech",
+    "abstract": "ITALIANO) Il progetto LiITA (https://www.liita.it/) si propone di rendere interoperabile e quindi sfruttare la ricchezza di risorse linguistiche disponibili per la lingua italiana (corpora, edizioni digitali, lessici, dizionari e glossari) attraverso l’applicazione dei principi Linked Open Data. Questo articolo descrive i primi passi per lo sviluppo di una Knowledge Base aperta, in cui le risorse linguistiche sono rese interoperabili attraverso il collegamento delle voci delle risorse lessicali e delle occorrenze delle risorse testuali alle forme di citazione registrate in una raccolta di lemmi (Lemma Bank) della lingua italiana. Seguendo i principi del paradigma Linked Open Data, l'interoperabilità concettuale tra le risorse distribuite connesse in LiITA è ottenuta applicando un vocabolario per la descrizione della conoscenza comunemente utilizzato nel mondo dei Linked Open Data linguistici, adottando modelli ampiamente utilizzati, tra cui il principale è OntoLexLemon.",
+    "event-place": "Verona, Italy",
+    "event-title": "AIUCD 2025",
+    "language": "it",
+    "publisher-place": "Verona, Italy",
+    "title": "LiITA, una Knowledge Base di risorse interconnesse per l’italiano",
+    "author": [
+      {
+        "family": "Litta",
+        "given": "Eleonora"
+      },
+      {
+        "family": "Passarotti",
+        "given": "Marco"
+      },
+      {
+        "family": "Brasolin",
+        "given": "Paolo"
+      },
+      {
+        "family": "Basile",
+        "given": "Valerio"
+      },
+      {
+        "family": "Bosco",
+        "given": "Cristina"
+      },
+      {
+        "family": "Fabio",
+        "given": "Andrea Di"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2025",
+          6,
+          11
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/959956/items/MA22R8SX",
+    "type": "speech",
+    "abstract": "This paper describes the LiITA Knowledge Base of interoperable linguistic resources for Italian.By adhering to the Linked Open Data principles, LiITA ensures and facilitates interoperability between distributed resources. The paper outlines the lemma-centered architecture of the Knowledge Base and details its core component: the Lemma Bank, a collection of Italian lemmas designed to interlink distributed lexical and textual resources.",
+    "event-place": "Naples, Italy",
+    "event-title": "LDK 2025",
+    "language": "en",
+    "publisher-place": "Naples, Italy",
+    "title": "LiITA: a Knowledge Base of Interoperable Resources for Italian",
+    "URL": "http://2025.ldk-conf.org/wp-content/uploads/2025/09/LDK_LiITA.pdf",
+    "author": [
+      {
+        "family": "Litta",
+        "given": "Eleonora"
+      },
+      {
+        "family": "Passarotti",
+        "given": "Marco Carlo"
+      },
+      {
+        "family": "Basile",
+        "given": "Valerio"
+      },
+      {
+        "family": "Bosco",
+        "given": "Cristina"
+      },
+      {
+        "family": "Fabio",
+        "given": "Andrea Di"
+      },
+      {
+        "family": "Brasolin",
+        "given": "Paolo"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2025",
+          9,
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "id": "http://zotero.org/users/959956/items/3HVZEQE6",
+    "type": "speech",
+    "abstract": "The paper introduces the LiIta Knowledge Base of interoperable linguistic resources for Italian. After describing the principles of the Linked Data paradigm, on which LiIta is grounded, the paper presents the lemma-centred architecture of the Knowledge Base and details its core component, consisting of a large collection of Italian lemmas (called the Lemma Bank) used to interlink distributed lexical and textual resources.",
+    "event-place": "Pisa, Italy",
+    "event-title": "CLiC-it 2024",
+    "language": "en",
+    "publisher-place": "Pisa, Italy",
+    "title": "The Lemma Bank of the LiITA Knowledge Base of Interoperable Resources for Italian",
+    "author": [
+      {
+        "family": "Litta",
+        "given": "Eleonora"
+      },
+      {
+        "family": "Passarotti",
+        "given": "Marco"
+      },
+      {
+        "family": "Brasolin",
+        "given": "Paolo"
+      },
+      {
+        "family": "Moretti",
+        "given": "Giovanni"
+      },
+      {
+        "family": "Basile",
+        "given": "Valerio"
+      },
+      {
+        "family": "Di Fabio",
+        "given": "Andrea"
+      },
+      {
+        "family": "Bosco",
+        "given": "Cristina"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2024",
+          12,
+          6
+        ]
+      ]
+    }
   }
 ]
