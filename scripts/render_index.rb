@@ -13,6 +13,7 @@ require "yaml"
 require "liquid"
 require "kramdown"
 require "fileutils"
+require "base64"
 
 ROOT = File.expand_path("..", __dir__)
 
@@ -43,7 +44,7 @@ end
 assets = {
   "css" => File.read(File.join(ROOT, "includes", "index.css")),
   "icons_svg" => File.read(File.join(ROOT, "includes", "icons.svg")),
-  "favicon_base64" => File.read(File.join(ROOT, "includes", "favicon.ico.base64")).strip
+  "favicon_base64" => Base64.strict_encode64(File.binread(File.join(ROOT, "includes", "favicon.ico")))
 }
 
 # Render
