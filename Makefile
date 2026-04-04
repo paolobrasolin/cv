@@ -3,9 +3,6 @@ log := @printf "\n\u001b[7m ■ %s \u001b[0m\n"
 dev:
 	bundle exec jekyll serve --livereload
 
-css:
-	npm run build:css
-
 www:
 	bundle exec jekyll build
 
