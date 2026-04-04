@@ -18,7 +18,7 @@ cp = CiteProc::Processor.new style: "apa-no-ampersand", format: "html"
 
 ROOT = File.expand_path("..", __dir__)
 
-entries = JSON.parse(File.read(File.join(ROOT, "_data", "publications.json")))
+entries = JSON.parse(File.read(File.join(ROOT, "data", "publications.json")))
 
 # FIXME: not sure why but citeproc doesn't like dashes
 entries.each do |entry|
