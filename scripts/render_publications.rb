@@ -1,3 +1,14 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "bundler/inline"
+
+gemfile do
+  source "https://rubygems.org"
+  gem "citeproc-ruby", "~> 2.1"
+  gem "csl-styles", "~> 2.0"
+end
+
 require "citeproc"
 require "csl/styles"
 require "yaml"
@@ -5,7 +16,9 @@ require "json"
 
 cp = CiteProc::Processor.new style: "apa-no-ampersand", format: "html"
 
-entries = JSON.parse(File.read("_data/my_publications.json"))
+ROOT = File.expand_path("..", __dir__)
+
+entries = JSON.parse(File.read(File.join(ROOT, "_data", "publications.json")))
 
 # FIXME: not sure why but citeproc doesn't like dashes
 entries.each do |entry|
@@ -23,4 +36,4 @@ items = items.zip(entries).map do |item, entry|
   label = "**#{label}**" if ["article-journal", "paper-conference"].include?(entry["type"])
   "- " + label
 end
-puts ({ "title" => "Publications", "body" => items.join("\n") }.to_yaml)
+puts({ "title" => "Publications", "body" => items.join("\n") }.to_yaml)
